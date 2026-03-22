@@ -9,6 +9,7 @@ const rawDataDir = path.join(projectRoot, "raw_data");
 const sourcePath = path.join(rawDataDir, "diving-fish-info.js");
 const extraTagPath = path.join(rawDataDir, "extra-tag.json");
 const nihePath = path.join(rawDataDir, "nihe-info.json");
+const tagsPath = path.join(rawDataDir, "tags-info.json");
 const outputPath = path.join(projectRoot, "all-data-json.json");
 const unmatchedSongIdsPath = path.join(projectRoot, "extra-tag-unmatched-songids.json");
 const errorPath = path.join(projectRoot, "error.md");
@@ -53,6 +54,19 @@ function loadNiheData(filePath) {
     throw new Error("raw_data/nihe-info.json must contain a charts object");
   }
   return data.charts;
+}
+
+function loadTagsData(filePath) {
+  const data = JSON.parse(fs.readFileSync(filePath, "utf8"));
+  if (
+    !data ||
+    typeof data !== "object" ||
+    !Array.isArray(data.tags) ||
+    !Array.isArray(data.tagSongs)
+  ) {
+    throw new Error("raw_data/tags-info.json 缺少 tags 或 tagSongs 数组");
+  }
+  return data;
 }
 
 function isPlainObject(value) {
@@ -133,6 +147,7 @@ function buildDifficultyInfo(song, sheet, groupKey, errors) {
     avg_acc: null,
     "sss+_rate": null,
     ap_rate: null,
+    tags: [],
   };
 }
 
@@ -392,6 +407,99 @@ function applyNiheInfo(result, niheCharts) {
   return { niheAppliedCount };
 }
 
+function applyTagsInfo(result, tagsData) {
+  const difficultyFieldMap = {
+    basic: "basic_info",
+    advanced: "advance_info",
+    expert: "expert_info",
+    master: "master_info",
+    remaster: "remaster_info",
+  };
+
+  for (const song of result) {
+    for (const fieldName of Object.values(difficultyFieldMap)) {
+      if (song[fieldName]) {
+        song[fieldName].tags = [];
+      }
+    }
+  }
+
+  const songMap = new Map();
+  for (const song of result) {
+    songMap.set(`${song.songId}|||${song.type}`, song);
+  }
+
+  const tagNameById = new Map();
+  const missingLocalizedNameIds = [];
+  for (const tag of tagsData.tags) {
+    const zhHans = tag?.localized_name?.["zh-Hans"];
+    if (typeof zhHans === "string" && zhHans.trim()) {
+      tagNameById.set(tag.id, zhHans.trim());
+    } else {
+      missingLocalizedNameIds.push(tag.id);
+    }
+  }
+
+  let matchedRows = 0;
+  let missingSongRows = 0;
+  let missingDifficultyRows = 0;
+  let missingTagNameRows = 0;
+  let ignoredUtageMissingSongRows = 0;
+  const missingSongCombos = new Set();
+  const missingDifficultyCombos = new Set();
+
+  for (const row of tagsData.tagSongs) {
+    const song = songMap.get(`${row.song_id}|||${row.sheet_type}`);
+    if (!song) {
+      if (row.sheet_type === "utage" || row.sheet_type === "utage2p") {
+        ignoredUtageMissingSongRows += 1;
+      } else {
+        missingSongRows += 1;
+        missingSongCombos.add(
+          `${row.song_id}|||${row.sheet_type}|||${row.sheet_difficulty}`
+        );
+      }
+      continue;
+    }
+
+    const fieldName = difficultyFieldMap[row.sheet_difficulty];
+    if (!fieldName || !song[fieldName]) {
+      missingDifficultyRows += 1;
+      missingDifficultyCombos.add(
+        `${row.song_id}|||${row.sheet_type}|||${row.sheet_difficulty}`
+      );
+      continue;
+    }
+
+    const tagName = tagNameById.get(row.tag_id);
+    if (!tagName) {
+      missingTagNameRows += 1;
+      continue;
+    }
+
+    if (!song[fieldName].tags.includes(tagName)) {
+      song[fieldName].tags.push(tagName);
+    }
+    matchedRows += 1;
+  }
+
+  return {
+    totalTagRows: tagsData.tagSongs.length,
+    matchedRows,
+    missingSongRows,
+    missingDifficultyRows,
+    missingTagNameRows,
+    ignoredUtageMissingSongRows,
+    missingSongCombos: [...missingSongCombos].sort((a, b) =>
+      a.localeCompare(b, "zh-Hans-CN")
+    ),
+    missingDifficultyCombos: [...missingDifficultyCombos].sort((a, b) =>
+      a.localeCompare(b, "zh-Hans-CN")
+    ),
+    missingLocalizedNameIds,
+  };
+}
+
 function analyzeNiheCoverage(result, niheCharts) {
   const allInternalIds = new Set(
     result
@@ -434,47 +542,74 @@ function analyzeNiheCoverage(result, niheCharts) {
   };
 }
 
-function writeErrorReport(coverageReport, buildErrors) {
+function writeErrorReport(coverageReport, tagReport, buildErrors) {
   const lines = [];
   lines.push("# 错误报告");
   lines.push("");
-  lines.push("本文件现在只检查一件事：`raw_data/nihe-info.json` 里是否存在无法定位到 `all-data-json.json` 的数据。");
+  lines.push("本次检查包含两部分：");
+  lines.push("- `raw_data/nihe-info.json` 里是否存在无法定位到 `all-data-json.json` 的谱面组");
+  lines.push("- `raw_data/tags-info.json` 里的标签映射是否能正确落到 `all-data-json.json` 的对应难度");
   lines.push("");
   lines.push("说明：");
   lines.push("- `all-data-json.json` 中有些歌曲没有 `nihe` 信息现在视为允许，不再记为错误。");
   lines.push("- 当前 `all-data-json.json` 只收录 `dx/std`，不收录宴会场/特殊谱。");
+  lines.push("- 因为宴会场谱面未收录而导致的“找不到”错误，按要求忽略。");
   lines.push("");
-  lines.push("检查结果：");
-  lines.push(`- ` + `nihe-info` + ` 中的谱面组总数：${coverageReport.totalNiheGroups}`);
-  lines.push(`- 成功定位到 ` + `all-data-json` + ` 的谱面组数：${coverageReport.matchedGroups}`);
-  lines.push(`- 无法定位到 ` + `all-data-json` + ` 的谱面组数：${coverageReport.unmatchedGroups}`);
-  lines.push(`- 其中疑似宴会场/特殊谱的数量：${coverageReport.specialLike.length}`);
-  lines.push(`- 其中疑似常规谱面但未命中的数量：${coverageReport.normalLike.length}`);
+  lines.push("nihe 检查结果：");
+  lines.push(`- nihe-info 中的谱面组总数：${coverageReport.totalNiheGroups}`);
+  lines.push(`- 成功定位到 all-data-json 的谱面组数：${coverageReport.matchedGroups}`);
+  lines.push(`- 需要关注的未命中谱面组数：${coverageReport.normalLike.length}`);
+  lines.push(`- 已忽略的疑似宴会场/特殊谱未命中数量：${coverageReport.specialLike.length}`);
   lines.push("");
 
-  if (coverageReport.normalLike.length === 0 && coverageReport.specialLike.length === 0) {
+  if (coverageReport.normalLike.length === 0) {
     lines.push("结论：");
-    lines.push("- 没有发现 `nihe-info` 中存在但 `all-data-json` 完全无法定位的谱面组。");
+    lines.push("- 未发现常规谱面存在“nihe 有数据但 all-data-json 完全定位不到”的错误。");
   } else {
-    if (coverageReport.normalLike.length > 0) {
-      lines.push("需要优先排查的未命中谱面：");
-      for (const item of coverageReport.normalLike) {
-        lines.push(
-          `- internalId ${item.internalId}，难度槽位：${item.diffs.join(" / ")}，对应统计量：${item.counts.join(" / ")}`
-        );
-      }
+    lines.push("需要优先排查的未命中常规谱面：");
+    for (const item of coverageReport.normalLike) {
+      lines.push(
+        `- internalId ${item.internalId}，难度槽位：${item.diffs.join(" / ")}，对应统计量：${item.counts.join(" / ")}`
+      );
+    }
+  }
+
+  lines.push("");
+  lines.push("tags 检查结果：");
+  lines.push(`- tags-info 中的标签映射总行数：${tagReport.totalTagRows}`);
+  lines.push(`- 成功写入 all-data-json 的行数：${tagReport.matchedRows}`);
+  lines.push(`- 因为找不到对应歌曲而未写入的行数：${tagReport.missingSongRows}`);
+  lines.push(`- 因为找不到对应难度而未写入的行数：${tagReport.missingDifficultyRows}`);
+  lines.push(`- 因为标签缺少中文名而未写入的行数：${tagReport.missingTagNameRows}`);
+  lines.push(`- 已忽略的宴会场谱面找不到歌曲行数：${tagReport.ignoredUtageMissingSongRows}`);
+
+  if (
+    tagReport.missingSongRows === 0 &&
+    tagReport.missingDifficultyRows === 0 &&
+    tagReport.missingTagNameRows === 0
+  ) {
+    lines.push("- tags 映射没有发现异常。");
+  } else {
+    if (tagReport.missingSongCombos.length > 0) {
       lines.push("");
+      lines.push("tags 无法定位到歌曲的谱面组合：");
+      for (const combo of tagReport.missingSongCombos) {
+        lines.push(`- ${combo}`);
+      }
     }
 
-    if (coverageReport.specialLike.length > 0) {
-      lines.push("疑似宴会场或特殊谱的未命中 internalId：");
-      lines.push(
-        `- ${coverageReport.specialLike.map((item) => item.internalId).join("、")}`
-      );
+    if (tagReport.missingDifficultyCombos.length > 0) {
       lines.push("");
-      lines.push("补充说明：");
-      lines.push("- 这批数据的非空难度基本都带 `?`，形态与宴会场/特殊谱一致。");
-      lines.push("- 由于当前 `all-data-json.json` 只保留 `dx/std`，这部分未命中大概率属于预期现象。");
+      lines.push("tags 找到歌曲但找不到对应难度的谱面组合：");
+      for (const combo of tagReport.missingDifficultyCombos) {
+        lines.push(`- ${combo}`);
+      }
+    }
+
+    if (tagReport.missingLocalizedNameIds.length > 0) {
+      lines.push("");
+      lines.push("tags 缺少中文标签名的 tag_id：");
+      lines.push(`- ${tagReport.missingLocalizedNameIds.join("、")}`);
     }
   }
 
@@ -545,8 +680,10 @@ const data = loadDivingFishData(sourcePath);
 const { result, noneInternalIdCount, errors } = buildAllDataJson(data.songs);
 const extraTags = loadExtraTags(extraTagPath);
 const niheCharts = loadNiheData(nihePath);
+const tagsData = loadTagsData(tagsPath);
 const extraTagStats = mergeExtraTags(result, extraTags);
 const niheStats = applyNiheInfo(result, niheCharts);
+const tagStats = applyTagsInfo(result, tagsData);
 const coverageReport = analyzeNiheCoverage(result, niheCharts);
 
 fs.writeFileSync(outputPath, `${formatJson(result)}\n`);
@@ -554,7 +691,7 @@ fs.writeFileSync(
   unmatchedSongIdsPath,
   `${JSON.stringify(extraTagStats.unmatchedSongIds, null, 2)}\n`
 );
-writeErrorReport(coverageReport, errors);
+writeErrorReport(coverageReport, tagStats, errors);
 
 console.log(
   JSON.stringify(
@@ -570,6 +707,11 @@ console.log(
       extraTagUnmatchedSongIds: extraTagStats.unmatchedSongIds.length,
       niheChartGroups: Object.keys(niheCharts).length,
       niheAppliedCount: niheStats.niheAppliedCount,
+      tagMatchedRows: tagStats.matchedRows,
+      tagMissingSongRows: tagStats.missingSongRows,
+      tagMissingDifficultyRows: tagStats.missingDifficultyRows,
+      tagMissingTagNameRows: tagStats.missingTagNameRows,
+      tagIgnoredUtageMissingSongRows: tagStats.ignoredUtageMissingSongRows,
       niheUnmatchedAllDataCount: coverageReport.unmatchedGroups,
       niheUnmatchedSpecialLikeCount: coverageReport.specialLike.length,
       niheUnmatchedNormalLikeCount: coverageReport.normalLike.length,
