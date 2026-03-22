@@ -6,6 +6,7 @@ const cwd = process.cwd();
 const sourcePath = path.join(cwd, "diving-fish-info.js");
 const outputPath = path.join(cwd, "all-data-json.json");
 const extraTagPath = path.join(cwd, "extra-tag.json");
+const unmatchedSongIdsPath = path.join(cwd, "extra-tag-unmatched-songids.json");
 
 function loadDivingFishData(filePath) {
   let source = fs.readFileSync(filePath, "utf8");
@@ -115,19 +116,34 @@ function buildAllDataJson(songs) {
   }
 
   const result = [];
-  let removedCount = 0;
+  let noneInternalIdCount = 0;
 
   for (const group of groups.values()) {
     if (group.internalId == null) {
-      removedCount += 1;
-      continue;
+      group.internalId = "none";
+      noneInternalIdCount += 1;
     }
     result.push(group);
   }
 
-  result.sort((left, right) => left.internalId - right.internalId);
+  result.sort((left, right) => {
+    const leftIsNone = left.internalId === "none";
+    const rightIsNone = right.internalId === "none";
 
-  return { result, removedCount };
+    if (leftIsNone && rightIsNone) {
+      return left.songId.localeCompare(right.songId, "zh-Hans-CN");
+    }
+    if (leftIsNone) {
+      return 1;
+    }
+    if (rightIsNone) {
+      return -1;
+    }
+
+    return left.internalId - right.internalId;
+  });
+
+  return { result, noneInternalIdCount };
 }
 
 function mergeExtraTags(result, extraTags) {
@@ -176,18 +192,23 @@ function mergeExtraTags(result, extraTags) {
 }
 
 const data = loadDivingFishData(sourcePath);
-const { result, removedCount } = buildAllDataJson(data.songs);
+const { result, noneInternalIdCount } = buildAllDataJson(data.songs);
 const extraTags = loadExtraTags(extraTagPath);
 const extraTagStats = mergeExtraTags(result, extraTags);
 
 fs.writeFileSync(outputPath, `${JSON.stringify(result, null, 2)}\n`);
+fs.writeFileSync(
+  unmatchedSongIdsPath,
+  `${JSON.stringify(extraTagStats.unmatchedSongIds, null, 2)}\n`
+);
 
 console.log(
   JSON.stringify(
     {
       outputPath,
+      unmatchedSongIdsPath,
       songCount: result.length,
-      removedMissingInternalIdCount: removedCount,
+      noneInternalIdCount,
       extraTagRows: extraTags.length,
       extraTagMatchedRows: extraTagStats.matchedRows,
       extraTagUnmatchedRows: extraTagStats.unmatchedRows,
