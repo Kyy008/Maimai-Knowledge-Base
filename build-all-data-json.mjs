@@ -5,6 +5,7 @@ import vm from "vm";
 const cwd = process.cwd();
 const sourcePath = path.join(cwd, "diving-fish-info.js");
 const outputPath = path.join(cwd, "all-data-json.json");
+const extraTagPath = path.join(cwd, "extra-tag.json");
 
 function loadDivingFishData(filePath) {
   let source = fs.readFileSync(filePath, "utf8");
@@ -34,6 +35,19 @@ function assertConsistent(fieldName, left, right, groupKey) {
   throw new Error(
     `Inconsistent ${fieldName} for group ${groupKey}: ${left} !== ${right}`
   );
+}
+
+function loadExtraTags(filePath) {
+  if (!fs.existsSync(filePath)) {
+    return [];
+  }
+
+  const data = JSON.parse(fs.readFileSync(filePath, "utf8"));
+  if (!Array.isArray(data)) {
+    throw new Error("extra-tag.json must be an array");
+  }
+
+  return data;
 }
 
 function buildAllDataJson(songs) {
@@ -116,8 +130,55 @@ function buildAllDataJson(songs) {
   return { result, removedCount };
 }
 
+function mergeExtraTags(result, extraTags) {
+  const bySongId = new Map();
+  for (const item of result) {
+    const list = bySongId.get(item.songId) ?? [];
+    list.push(item);
+    bySongId.set(item.songId, list);
+  }
+
+  let matchedRows = 0;
+  let unmatchedRows = 0;
+  const unmatchedSongIds = new Set();
+
+  for (const row of extraTags) {
+    if (!row || typeof row.song_id !== "string" || typeof row.name !== "string") {
+      continue;
+    }
+
+    const songId = row.song_id;
+    const alias = row.name.trim();
+    if (!alias) {
+      continue;
+    }
+
+    const targets = bySongId.get(songId);
+    if (!targets || targets.length === 0) {
+      unmatchedRows += 1;
+      unmatchedSongIds.add(songId);
+      continue;
+    }
+
+    matchedRows += 1;
+    for (const target of targets) {
+      if (!target.otherName.includes(alias)) {
+        target.otherName.push(alias);
+      }
+    }
+  }
+
+  return {
+    matchedRows,
+    unmatchedRows,
+    unmatchedSongIds: [...unmatchedSongIds].sort(),
+  };
+}
+
 const data = loadDivingFishData(sourcePath);
 const { result, removedCount } = buildAllDataJson(data.songs);
+const extraTags = loadExtraTags(extraTagPath);
+const extraTagStats = mergeExtraTags(result, extraTags);
 
 fs.writeFileSync(outputPath, `${JSON.stringify(result, null, 2)}\n`);
 
@@ -127,6 +188,10 @@ console.log(
       outputPath,
       songCount: result.length,
       removedMissingInternalIdCount: removedCount,
+      extraTagRows: extraTags.length,
+      extraTagMatchedRows: extraTagStats.matchedRows,
+      extraTagUnmatchedRows: extraTagStats.unmatchedRows,
+      extraTagUnmatchedSongIds: extraTagStats.unmatchedSongIds.length,
     },
     null,
     2
