@@ -1,14 +1,17 @@
 import fs from "fs";
 import path from "path";
 import vm from "vm";
+import { fileURLToPath } from "url";
 
-const cwd = process.cwd();
-const rawDataDir = path.join(cwd, "raw_data");
+const scriptDir = path.dirname(fileURLToPath(import.meta.url));
+const projectRoot = path.resolve(scriptDir, "..");
+const rawDataDir = path.join(projectRoot, "raw_data");
 const sourcePath = path.join(rawDataDir, "diving-fish-info.js");
 const extraTagPath = path.join(rawDataDir, "extra-tag.json");
-const outputPath = path.join(cwd, "all-data-json.json");
-const unmatchedSongIdsPath = path.join(cwd, "extra-tag-unmatched-songids.json");
-const errorPath = path.join(cwd, "error.md");
+const nihePath = path.join(rawDataDir, "nihe-info.json");
+const outputPath = path.join(projectRoot, "all-data-json.json");
+const unmatchedSongIdsPath = path.join(projectRoot, "extra-tag-unmatched-songids.json");
+const errorPath = path.join(projectRoot, "error.md");
 
 function loadDivingFishData(filePath) {
   let source = fs.readFileSync(filePath, "utf8");
@@ -42,6 +45,14 @@ function loadExtraTags(filePath) {
   }
 
   return data;
+}
+
+function loadNiheData(filePath) {
+  const data = JSON.parse(fs.readFileSync(filePath, "utf8"));
+  if (!data || typeof data !== "object" || !data.charts || typeof data.charts !== "object") {
+    throw new Error("raw_data/nihe-info.json must contain a charts object");
+  }
+  return data.charts;
 }
 
 function isPlainObject(value) {
@@ -118,6 +129,10 @@ function buildDifficultyInfo(song, sheet, groupKey, errors) {
     slide: noteCounts.slide ?? null,
     touch: noteCounts.touch ?? null,
     break: noteCounts.break ?? null,
+    nihe: null,
+    avg_acc: null,
+    "sss+_rate": null,
+    ap_rate: null,
   };
 }
 
@@ -294,11 +309,185 @@ function mergeExtraTags(result, extraTags) {
   };
 }
 
-function writeErrorReport(errors) {
-  const body =
-    errors.length === 0
-      ? "# Error Report\n\nNo anomalies were detected while filling difficulty info.\n"
-      : `# Error Report\n\nDetected ${errors.length} anomaly entries while filling difficulty info.\n\n${errors.join("\n")}\n`;
+function calculateRate(numerator, denominator, groupKey, fieldName, errors) {
+  if (!Number.isFinite(denominator) || denominator <= 0) {
+    errors.push(`- ${groupKey}: cannot calculate \`${fieldName}\` because denominator is invalid`);
+    return null;
+  }
+  if (!Number.isFinite(numerator)) {
+    errors.push(`- ${groupKey}: cannot calculate \`${fieldName}\` because numerator is invalid`);
+    return null;
+  }
+  return (numerator / denominator) * 100;
+}
+
+function applyNiheInfo(result, niheCharts) {
+  const fieldOrder = [
+    "basic_info",
+    "advance_info",
+    "expert_info",
+    "master_info",
+    "remaster_info",
+  ];
+
+  let niheAppliedCount = 0;
+
+  for (const song of result) {
+    if (song.internalId === "none") {
+      continue;
+    }
+
+    const chartGroup = niheCharts[String(song.internalId)];
+    if (!Array.isArray(chartGroup)) {
+      continue;
+    }
+
+    fieldOrder.forEach((fieldName, index) => {
+      const info = song[fieldName];
+      if (!info) {
+        return;
+      }
+
+      const niheEntry = chartGroup[index];
+      if (!niheEntry || Object.keys(niheEntry).length === 0) {
+        return;
+      }
+
+      const dist = Array.isArray(niheEntry.dist) ? niheEntry.dist : null;
+      const fcDist = Array.isArray(niheEntry.fc_dist) ? niheEntry.fc_dist : null;
+
+      info.nihe = niheEntry.fit_diff ?? null;
+      info.avg_acc = niheEntry.avg ?? null;
+
+      if (!dist || dist.length === 0) {
+        info["sss+_rate"] = null;
+      } else {
+        const distSum = dist.reduce((sum, value) => sum + Number(value || 0), 0);
+        const sssPlusNumerator = Number(dist[dist.length - 1] ?? 0);
+        info.nihe = niheEntry.fit_diff ?? null;
+        info.avg_acc = niheEntry.avg ?? null;
+        info["sss+_rate"] =
+          Number.isFinite(distSum) && distSum > 0
+            ? (sssPlusNumerator / distSum) * 100
+            : null;
+      }
+
+      if (!fcDist || fcDist.length < 2) {
+        info.ap_rate = null;
+      } else {
+        const fcSum = fcDist.reduce((sum, value) => sum + Number(value || 0), 0);
+        const apNumerator =
+          Number(fcDist[fcDist.length - 1] ?? 0) +
+          Number(fcDist[fcDist.length - 2] ?? 0);
+        info.ap_rate =
+          Number.isFinite(fcSum) && fcSum > 0
+            ? (apNumerator / fcSum) * 100
+            : null;
+      }
+
+      niheAppliedCount += 1;
+    });
+  }
+
+  return { niheAppliedCount };
+}
+
+function analyzeNiheCoverage(result, niheCharts) {
+  const allInternalIds = new Set(
+    result
+      .filter((song) => song.internalId !== "none")
+      .map((song) => String(song.internalId))
+  );
+
+  const unmatched = [];
+  for (const [internalId, chartGroup] of Object.entries(niheCharts)) {
+    if (!allInternalIds.has(String(internalId))) {
+      const entries = Array.isArray(chartGroup)
+        ? chartGroup.filter((item) => item && Object.keys(item).length > 0)
+        : [];
+      const diffs = entries.map((item) => item.diff ?? null);
+      const counts = entries.map((item) => item.cnt ?? null);
+      const likelySpecial =
+        entries.length > 0 &&
+        entries.every(
+          (item) => typeof item.diff === "string" && item.diff.includes("?")
+        );
+
+      unmatched.push({
+        internalId: String(internalId),
+        diffs,
+        counts,
+        likelySpecial,
+      });
+    }
+  }
+
+  const specialLike = unmatched.filter((item) => item.likelySpecial);
+  const normalLike = unmatched.filter((item) => !item.likelySpecial);
+
+  return {
+    totalNiheGroups: Object.keys(niheCharts).length,
+    matchedGroups: Object.keys(niheCharts).length - unmatched.length,
+    unmatchedGroups: unmatched.length,
+    specialLike,
+    normalLike,
+  };
+}
+
+function writeErrorReport(coverageReport, buildErrors) {
+  const lines = [];
+  lines.push("# 错误报告");
+  lines.push("");
+  lines.push("本文件现在只检查一件事：`raw_data/nihe-info.json` 里是否存在无法定位到 `all-data-json.json` 的数据。");
+  lines.push("");
+  lines.push("说明：");
+  lines.push("- `all-data-json.json` 中有些歌曲没有 `nihe` 信息现在视为允许，不再记为错误。");
+  lines.push("- 当前 `all-data-json.json` 只收录 `dx/std`，不收录宴会场/特殊谱。");
+  lines.push("");
+  lines.push("检查结果：");
+  lines.push(`- ` + `nihe-info` + ` 中的谱面组总数：${coverageReport.totalNiheGroups}`);
+  lines.push(`- 成功定位到 ` + `all-data-json` + ` 的谱面组数：${coverageReport.matchedGroups}`);
+  lines.push(`- 无法定位到 ` + `all-data-json` + ` 的谱面组数：${coverageReport.unmatchedGroups}`);
+  lines.push(`- 其中疑似宴会场/特殊谱的数量：${coverageReport.specialLike.length}`);
+  lines.push(`- 其中疑似常规谱面但未命中的数量：${coverageReport.normalLike.length}`);
+  lines.push("");
+
+  if (coverageReport.normalLike.length === 0 && coverageReport.specialLike.length === 0) {
+    lines.push("结论：");
+    lines.push("- 没有发现 `nihe-info` 中存在但 `all-data-json` 完全无法定位的谱面组。");
+  } else {
+    if (coverageReport.normalLike.length > 0) {
+      lines.push("需要优先排查的未命中谱面：");
+      for (const item of coverageReport.normalLike) {
+        lines.push(
+          `- internalId ${item.internalId}，难度槽位：${item.diffs.join(" / ")}，对应统计量：${item.counts.join(" / ")}`
+        );
+      }
+      lines.push("");
+    }
+
+    if (coverageReport.specialLike.length > 0) {
+      lines.push("疑似宴会场或特殊谱的未命中 internalId：");
+      lines.push(
+        `- ${coverageReport.specialLike.map((item) => item.internalId).join("、")}`
+      );
+      lines.push("");
+      lines.push("补充说明：");
+      lines.push("- 这批数据的非空难度基本都带 `?`，形态与宴会场/特殊谱一致。");
+      lines.push("- 由于当前 `all-data-json.json` 只保留 `dx/std`，这部分未命中大概率属于预期现象。");
+    }
+  }
+
+  if (buildErrors.length > 0) {
+    lines.push("");
+    lines.push("其他源数据一致性问题：");
+    for (const item of buildErrors) {
+      lines.push(item);
+    }
+  }
+
+  lines.push("");
+  const body = `${lines.join("\n")}\n`;
   fs.writeFileSync(errorPath, body);
 }
 
@@ -338,6 +527,14 @@ function formatJson(value, indentLevel = 0, currentKey = null) {
     if (currentKey === "internalLevelValue" && Number.isInteger(value)) {
       return value.toFixed(1);
     }
+    if (
+      currentKey === "nihe" ||
+      currentKey === "avg_acc" ||
+      currentKey === "sss+_rate" ||
+      currentKey === "ap_rate"
+    ) {
+      return value.toFixed(2);
+    }
     return String(value);
   }
 
@@ -347,14 +544,17 @@ function formatJson(value, indentLevel = 0, currentKey = null) {
 const data = loadDivingFishData(sourcePath);
 const { result, noneInternalIdCount, errors } = buildAllDataJson(data.songs);
 const extraTags = loadExtraTags(extraTagPath);
+const niheCharts = loadNiheData(nihePath);
 const extraTagStats = mergeExtraTags(result, extraTags);
+const niheStats = applyNiheInfo(result, niheCharts);
+const coverageReport = analyzeNiheCoverage(result, niheCharts);
 
 fs.writeFileSync(outputPath, `${formatJson(result)}\n`);
 fs.writeFileSync(
   unmatchedSongIdsPath,
   `${JSON.stringify(extraTagStats.unmatchedSongIds, null, 2)}\n`
 );
-writeErrorReport(errors);
+writeErrorReport(coverageReport, errors);
 
 console.log(
   JSON.stringify(
@@ -368,7 +568,12 @@ console.log(
       extraTagMatchedRows: extraTagStats.matchedRows,
       extraTagUnmatchedRows: extraTagStats.unmatchedRows,
       extraTagUnmatchedSongIds: extraTagStats.unmatchedSongIds.length,
-      errorCount: errors.length,
+      niheChartGroups: Object.keys(niheCharts).length,
+      niheAppliedCount: niheStats.niheAppliedCount,
+      niheUnmatchedAllDataCount: coverageReport.unmatchedGroups,
+      niheUnmatchedSpecialLikeCount: coverageReport.specialLike.length,
+      niheUnmatchedNormalLikeCount: coverageReport.normalLike.length,
+      buildErrorCount: errors.length,
     },
     null,
     2
