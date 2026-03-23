@@ -2,7 +2,7 @@
   {
     "internalId": 8,
     "songId": "True Love Song",
-    "type": "std",
+    "type": "标准",
     "bpm": 150,
     "version": "maimai",
     "otherName": [
@@ -72,7 +72,7 @@
   {
     "internalId": 9,
     "songId": "Color My World",
-    "type": "std",
+    "type": "标准",
     "bpm": 94,
     "version": "maimai",
     "otherName": [
@@ -139,7 +139,7 @@
   {
     "internalId": 17,
     "songId": "Future",
-    "type": "std",
+    "type": "标准",
     "bpm": 130,
     "version": "maimai",
     "otherName": [
@@ -224,7 +224,7 @@
   {
     "internalId": 18,
     "songId": "Love You",
-    "type": "std",
+    "type": "标准",
     "bpm": 135,
     "version": "maimai",
     "otherName": [
@@ -290,7 +290,7 @@
   {
     "internalId": 22,
     "songId": "In Chaos",
-    "type": "std",
+    "type": "标准",
     "bpm": 140,
     "version": "maimai",
     "otherName": [
@@ -401,7 +401,7 @@
   {
     "internalId": 23,
     "songId": "Crush On You",
-    "type": "std",
+    "type": "标准",
     "bpm": 125,
     "version": "maimai",
     "otherName": [
@@ -501,7 +501,7 @@
   {
     "internalId": 24,
     "songId": "Sun Dance",
-    "type": "std",
+    "type": "标准",
     "bpm": 102,
     "version": "maimai",
     "otherName": [
@@ -596,7 +596,7 @@
   {
     "internalId": 25,
     "songId": "Sweets×Sweets",
-    "type": "std",
+    "type": "标准",
     "bpm": 132,
     "version": "maimai",
     "otherName": [
@@ -665,7 +665,7 @@
   {
     "internalId": 27,
     "songId": "Love or Lies",
-    "type": "std",
+    "type": "标准",
     "bpm": 128,
     "version": "maimai",
     "otherName": [
@@ -733,7 +733,7 @@
   {
     "internalId": 30,
     "songId": "ネコ日和。",
-    "type": "std",
+    "type": "标准",
     "bpm": 171,
     "version": "maimai",
     "otherName": [
@@ -802,7 +802,7 @@
   {
     "internalId": 31,
     "songId": "虹と太陽",
-    "type": "std",
+    "type": "标准",
     "bpm": 146,
     "version": "maimai",
     "otherName": [
@@ -873,7 +873,7 @@
   {
     "internalId": 35,
     "songId": "炭★坑★節",
-    "type": "std",
+    "type": "标准",
     "bpm": 112,
     "version": "maimai",
     "otherName": [
@@ -946,7 +946,7 @@
   {
     "internalId": 38,
     "songId": "NIGHT OF FIRE",
-    "type": "std",
+    "type": "标准",
     "bpm": 155,
     "version": "maimai",
     "otherName": [
@@ -1020,7 +1020,7 @@
   {
     "internalId": 40,
     "songId": "come again",
-    "type": "std",
+    "type": "标准",
     "bpm": 130,
     "version": "maimai",
     "otherName": [
@@ -1090,7 +1090,7 @@
   {
     "internalId": 42,
     "songId": "jelly",
-    "type": "std",
+    "type": "标准",
     "bpm": 128,
     "version": "maimai",
     "otherName": [
@@ -1159,7 +1159,7 @@
   {
     "internalId": 44,
     "songId": "ハッピーシンセサイザ",
-    "type": "std",
+    "type": "标准",
     "bpm": 127,
     "version": "maimai",
     "otherName": [
@@ -1226,7 +1226,7 @@
   {
     "internalId": 46,
     "songId": "ルカルカ★ナイトフィーバー",
-    "type": "std",
+    "type": "标准",
     "bpm": 160,
     "version": "maimai",
     "otherName": [
@@ -1298,7 +1298,7 @@
   {
     "internalId": 47,
     "songId": "源平大戦絵巻テーマソング",
-    "type": "std",
+    "type": "标准",
     "bpm": 190,
     "version": "maimai",
     "otherName": [
@@ -1404,7 +1404,7 @@
   {
     "internalId": 53,
     "songId": "美しく燃える森",
-    "type": "std",
+    "type": "标准",
     "bpm": 140,
     "version": "maimai",
     "otherName": [
@@ -1470,7 +1470,7 @@
   {
     "internalId": 56,
     "songId": "ウッーウッーウマウマ(ﾟ∀ﾟ)",
-    "type": "std",
+    "type": "标准",
     "bpm": 164,
     "version": "maimai",
     "otherName": [
@@ -1545,7 +1545,7 @@
   {
     "internalId": 58,
     "songId": "Endless World",
-    "type": "std",
+    "type": "标准",
     "bpm": 142,
     "version": "maimai PLUS",
     "otherName": [
@@ -1631,7 +1631,7 @@
   {
     "internalId": 61,
     "songId": "Beat Of Mind",
-    "type": "std",
+    "type": "标准",
     "bpm": 140,
     "version": "maimai",
     "otherName": [
@@ -1724,7 +1724,7 @@
   {
     "internalId": 62,
     "songId": "檄！帝国華撃団(改)",
-    "type": "std",
+    "type": "标准",
     "bpm": 144,
     "version": "maimai",
     "otherName": [
@@ -1812,7 +1812,7 @@
   {
     "internalId": 63,
     "songId": "メランコリック",
-    "type": "std",
+    "type": "标准",
     "bpm": 140,
     "version": "maimai",
     "otherName": [
@@ -1879,7 +1879,7 @@
   {
     "internalId": 64,
     "songId": "教えて!! 魔法のLyric",
-    "type": "std",
+    "type": "标准",
     "bpm": 180,
     "version": "maimai",
     "otherName": [
@@ -1948,7 +1948,7 @@
   {
     "internalId": 65,
     "songId": "ZIGG-ZAGG",
-    "type": "std",
+    "type": "标准",
     "bpm": 138,
     "version": "maimai",
     "otherName": [
@@ -2029,7 +2029,7 @@
   {
     "internalId": 66,
     "songId": "ワールズエンド・ダンスホール",
-    "type": "std",
+    "type": "标准",
     "bpm": 171,
     "version": "maimai",
     "otherName": [
@@ -2120,7 +2120,7 @@
   {
     "internalId": 67,
     "songId": "パンダヒーロー",
-    "type": "std",
+    "type": "标准",
     "bpm": 190,
     "version": "maimai",
     "otherName": [
@@ -2188,7 +2188,7 @@
   {
     "internalId": 68,
     "songId": "オレンジの夏",
-    "type": "std",
+    "type": "标准",
     "bpm": 132,
     "version": "maimai",
     "otherName": [
@@ -2261,7 +2261,7 @@
   {
     "internalId": 69,
     "songId": "BaBan!! －甘い罠－",
-    "type": "std",
+    "type": "标准",
     "bpm": 161,
     "version": "maimai",
     "otherName": [
@@ -2330,7 +2330,7 @@
   {
     "internalId": 70,
     "songId": "ジングルベル",
-    "type": "std",
+    "type": "标准",
     "bpm": 100,
     "version": "maimai",
     "otherName": [
@@ -2442,7 +2442,7 @@
   {
     "internalId": 71,
     "songId": "マトリョシカ",
-    "type": "std",
+    "type": "标准",
     "bpm": 205,
     "version": "maimai",
     "otherName": [
@@ -2525,7 +2525,7 @@
   {
     "internalId": 73,
     "songId": "メグメグ☆ファイアーエンドレスナイト",
-    "type": "std",
+    "type": "标准",
     "bpm": 162,
     "version": "maimai",
     "otherName": [
@@ -2592,7 +2592,7 @@
   {
     "internalId": 75,
     "songId": "天国と地獄",
-    "type": "std",
+    "type": "标准",
     "bpm": 175,
     "version": "maimai",
     "otherName": [
@@ -2669,7 +2669,7 @@
   {
     "internalId": 76,
     "songId": "きみのためなら死ねる",
-    "type": "std",
+    "type": "标准",
     "bpm": 147,
     "version": "maimai",
     "otherName": [
@@ -2738,7 +2738,7 @@
   {
     "internalId": 77,
     "songId": "怪盗Rのテーマ",
-    "type": "std",
+    "type": "标准",
     "bpm": 147,
     "version": "maimai",
     "otherName": [
@@ -2808,7 +2808,7 @@
   {
     "internalId": 78,
     "songId": "マリアをはげませ",
-    "type": "std",
+    "type": "标准",
     "bpm": 131,
     "version": "maimai",
     "otherName": [
@@ -2874,7 +2874,7 @@
   {
     "internalId": 79,
     "songId": "SHOW TIME",
-    "type": "std",
+    "type": "标准",
     "bpm": 120,
     "version": "maimai",
     "otherName": [
@@ -2943,7 +2943,7 @@
   {
     "internalId": 80,
     "songId": "City Escape: Act1",
-    "type": "std",
+    "type": "标准",
     "bpm": 130,
     "version": "maimai",
     "otherName": [
@@ -3032,7 +3032,7 @@
   {
     "internalId": 81,
     "songId": "Rooftop Run: Act1",
-    "type": "std",
+    "type": "标准",
     "bpm": 152,
     "version": "maimai",
     "otherName": [
@@ -3114,7 +3114,7 @@
   {
     "internalId": 82,
     "songId": "Reach For The Stars",
-    "type": "std",
+    "type": "标准",
     "bpm": 203,
     "version": "maimai",
     "otherName": [
@@ -3193,7 +3193,7 @@
   {
     "internalId": 83,
     "songId": "Urban Crusher [Remix]",
-    "type": "std",
+    "type": "标准",
     "bpm": 155,
     "version": "maimai",
     "otherName": [
@@ -3267,7 +3267,7 @@
   {
     "internalId": 84,
     "songId": "Catch The Future",
-    "type": "std",
+    "type": "标准",
     "bpm": 210,
     "version": "maimai",
     "otherName": [
@@ -3336,7 +3336,7 @@
   {
     "internalId": 85,
     "songId": "JACKY [Remix]",
-    "type": "std",
+    "type": "标准",
     "bpm": 135,
     "version": "maimai",
     "otherName": [
@@ -3429,7 +3429,7 @@
   {
     "internalId": 100,
     "songId": "Tell Your World",
-    "type": "std",
+    "type": "标准",
     "bpm": 150,
     "version": "maimai PLUS",
     "otherName": [
@@ -3514,7 +3514,7 @@
   {
     "internalId": 101,
     "songId": "おちゃめ機能",
-    "type": "std",
+    "type": "标准",
     "bpm": 150,
     "version": "maimai PLUS",
     "otherName": [
@@ -3589,7 +3589,7 @@
   {
     "internalId": 102,
     "songId": "ダンシング☆サムライ",
-    "type": "std",
+    "type": "标准",
     "bpm": 142,
     "version": "maimai PLUS",
     "otherName": [
@@ -3665,7 +3665,7 @@
   {
     "internalId": 106,
     "songId": "BAD∞END∞NIGHT",
-    "type": "std",
+    "type": "标准",
     "bpm": 204,
     "version": "maimai PLUS",
     "otherName": [
@@ -3739,7 +3739,7 @@
   {
     "internalId": 107,
     "songId": "ロミオとシンデレラ",
-    "type": "std",
+    "type": "标准",
     "bpm": 170,
     "version": "maimai PLUS",
     "otherName": [
@@ -3832,7 +3832,7 @@
   {
     "internalId": 108,
     "songId": "Sweetiex2",
-    "type": "std",
+    "type": "标准",
     "bpm": 125,
     "version": "maimai PLUS",
     "otherName": [
@@ -3898,7 +3898,7 @@
   {
     "internalId": 109,
     "songId": "腐れ外道とチョコレゐト",
-    "type": "std",
+    "type": "标准",
     "bpm": 260,
     "version": "maimai PLUS",
     "otherName": [
@@ -3972,7 +3972,7 @@
   {
     "internalId": 110,
     "songId": "Quartet Theme [Reborn]",
-    "type": "std",
+    "type": "标准",
     "bpm": 137,
     "version": "maimai PLUS",
     "otherName": [
@@ -4047,7 +4047,7 @@
   {
     "internalId": 111,
     "songId": "Sky High [Reborn]",
-    "type": "std",
+    "type": "标准",
     "bpm": 144,
     "version": "maimai PLUS",
     "otherName": [
@@ -4131,7 +4131,7 @@
   {
     "internalId": 112,
     "songId": "Like the Wind [Reborn]",
-    "type": "std",
+    "type": "标准",
     "bpm": 200,
     "version": "maimai PLUS",
     "otherName": [
@@ -4214,7 +4214,7 @@
   {
     "internalId": 113,
     "songId": "YA･DA･YO [Reborn]",
-    "type": "std",
+    "type": "标准",
     "bpm": 105,
     "version": "maimai PLUS",
     "otherName": [
@@ -4317,7 +4317,7 @@
   {
     "internalId": 114,
     "songId": "Space Harrier Main Theme [Reborn]",
-    "type": "std",
+    "type": "标准",
     "bpm": 125,
     "version": "maimai PLUS",
     "otherName": [
@@ -4389,7 +4389,7 @@
   {
     "internalId": 115,
     "songId": "DADDY MULK -Groove remix-",
-    "type": "std",
+    "type": "标准",
     "bpm": 154,
     "version": "GreeN",
     "otherName": [
@@ -4486,7 +4486,7 @@
   {
     "internalId": 116,
     "songId": "ぴぴぱぷぅ！",
-    "type": "std",
+    "type": "标准",
     "bpm": 147,
     "version": "maimai PLUS",
     "otherName": [
@@ -4553,7 +4553,7 @@
   {
     "internalId": 117,
     "songId": "炎歌 -ほむらうた-",
-    "type": "std",
+    "type": "标准",
     "bpm": 108,
     "version": "maimai PLUS",
     "otherName": [
@@ -4626,7 +4626,7 @@
   {
     "internalId": 118,
     "songId": "犬日和。",
-    "type": "std",
+    "type": "标准",
     "bpm": 138,
     "version": "maimai PLUS",
     "otherName": [
@@ -4699,7 +4699,7 @@
   {
     "internalId": 119,
     "songId": "ソーラン☆節",
-    "type": "std",
+    "type": "标准",
     "bpm": 145,
     "version": "maimai PLUS",
     "otherName": [
@@ -4767,7 +4767,7 @@
   {
     "internalId": 120,
     "songId": "デコボコ体操第二",
-    "type": "std",
+    "type": "标准",
     "bpm": 140,
     "version": "maimai PLUS",
     "otherName": [
@@ -4835,7 +4835,7 @@
   {
     "internalId": 121,
     "songId": "スイートマジック",
-    "type": "std",
+    "type": "标准",
     "bpm": 123,
     "version": "maimai PLUS",
     "otherName": [
@@ -4907,7 +4907,7 @@
   {
     "internalId": 122,
     "songId": "ゴーゴー幽霊船",
-    "type": "std",
+    "type": "标准",
     "bpm": 180,
     "version": "maimai PLUS",
     "otherName": [
@@ -4975,7 +4975,7 @@
   {
     "internalId": 125,
     "songId": "千本桜",
-    "type": "std",
+    "type": "标准",
     "bpm": 154,
     "version": "maimai PLUS",
     "otherName": [
@@ -5053,7 +5053,7 @@
   {
     "internalId": 128,
     "songId": "御旗のもとに",
-    "type": "std",
+    "type": "标准",
     "bpm": 147,
     "version": "maimai PLUS",
     "otherName": [
@@ -5121,7 +5121,7 @@
   {
     "internalId": 130,
     "songId": "FEEL ALIVE",
-    "type": "std",
+    "type": "标准",
     "bpm": 162,
     "version": "maimai PLUS",
     "otherName": [
@@ -5194,7 +5194,7 @@
   {
     "internalId": 131,
     "songId": "Link",
-    "type": "std",
+    "type": "标准",
     "bpm": 132,
     "version": "maimai PLUS",
     "otherName": [
@@ -5282,7 +5282,7 @@
   {
     "internalId": 132,
     "songId": "Turn around",
-    "type": "std",
+    "type": "标准",
     "bpm": 156,
     "version": "maimai PLUS",
     "otherName": [
@@ -5353,7 +5353,7 @@
   {
     "internalId": 133,
     "songId": "We Gonna Party",
-    "type": "std",
+    "type": "标准",
     "bpm": 159,
     "version": "maimai PLUS",
     "otherName": [
@@ -5448,7 +5448,7 @@
   {
     "internalId": 134,
     "songId": "Night Fly",
-    "type": "std",
+    "type": "标准",
     "bpm": 127,
     "version": "maimai PLUS",
     "otherName": [
@@ -5540,7 +5540,7 @@
   {
     "internalId": 135,
     "songId": "Feel My Fire",
-    "type": "std",
+    "type": "标准",
     "bpm": 123,
     "version": "maimai PLUS",
     "otherName": [
@@ -5610,7 +5610,7 @@
   {
     "internalId": 136,
     "songId": "Streak",
-    "type": "std",
+    "type": "标准",
     "bpm": 150,
     "version": "maimai PLUS",
     "otherName": [
@@ -5692,7 +5692,7 @@
   {
     "internalId": 137,
     "songId": "Spin me harder",
-    "type": "std",
+    "type": "标准",
     "bpm": 130,
     "version": "maimai PLUS",
     "otherName": [
@@ -5766,7 +5766,7 @@
   {
     "internalId": 138,
     "songId": "Lionheart",
-    "type": "std",
+    "type": "标准",
     "bpm": 132,
     "version": "maimai PLUS",
     "otherName": [
@@ -5840,7 +5840,7 @@
   {
     "internalId": 139,
     "songId": "Acceleration",
-    "type": "std",
+    "type": "标准",
     "bpm": 180,
     "version": "maimai PLUS",
     "otherName": [
@@ -5911,7 +5911,7 @@
   {
     "internalId": 140,
     "songId": "Sprintrances",
-    "type": "std",
+    "type": "标准",
     "bpm": 178,
     "version": "maimai PLUS",
     "otherName": [
@@ -5978,7 +5978,7 @@
   {
     "internalId": 141,
     "songId": "Nerverakes",
-    "type": "std",
+    "type": "标准",
     "bpm": 140,
     "version": "maimai PLUS",
     "otherName": [
@@ -6050,7 +6050,7 @@
   {
     "internalId": 142,
     "songId": "Black Out",
-    "type": "std",
+    "type": "标准",
     "bpm": 142,
     "version": "maimai PLUS",
     "otherName": [
@@ -6125,7 +6125,7 @@
   {
     "internalId": 143,
     "songId": "Fragrance",
-    "type": "std",
+    "type": "标准",
     "bpm": 180,
     "version": "maimai PLUS",
     "otherName": [
@@ -6228,7 +6228,7 @@
   {
     "internalId": 144,
     "songId": "air's gravity",
-    "type": "std",
+    "type": "标准",
     "bpm": 137,
     "version": "maimai PLUS",
     "otherName": [
@@ -6312,7 +6312,7 @@
   {
     "internalId": 145,
     "songId": "Starlight Disco",
-    "type": "std",
+    "type": "标准",
     "bpm": 128,
     "version": "maimai PLUS",
     "otherName": [
@@ -6398,7 +6398,7 @@
   {
     "internalId": 146,
     "songId": "39",
-    "type": "std",
+    "type": "标准",
     "bpm": 175,
     "version": "maimai PLUS",
     "otherName": [
@@ -6488,7 +6488,7 @@
   {
     "internalId": 147,
     "songId": "地上の戦士",
-    "type": "std",
+    "type": "标准",
     "bpm": 130,
     "version": "maimai PLUS",
     "otherName": [
@@ -6556,7 +6556,7 @@
   {
     "internalId": 152,
     "songId": "超絶！Superlative",
-    "type": "std",
+    "type": "标准",
     "bpm": 200,
     "version": "maimai PLUS",
     "otherName": [
@@ -6622,7 +6622,7 @@
   {
     "internalId": 153,
     "songId": "采配の刻 Power of order",
-    "type": "std",
+    "type": "标准",
     "bpm": 185,
     "version": "maimai PLUS",
     "otherName": [
@@ -6688,7 +6688,7 @@
   {
     "internalId": 154,
     "songId": "DO RORO DERODERO ON DO RORO",
-    "type": "std",
+    "type": "标准",
     "bpm": 190,
     "version": "maimai PLUS",
     "otherName": [
@@ -6760,7 +6760,7 @@
   {
     "internalId": 155,
     "songId": "泣き虫O'clock",
-    "type": "std",
+    "type": "标准",
     "bpm": 152,
     "version": "maimai PLUS",
     "otherName": [
@@ -6843,7 +6843,7 @@
   {
     "internalId": 157,
     "songId": "Natural Flow",
-    "type": "std",
+    "type": "标准",
     "bpm": 100,
     "version": "maimai PLUS",
     "otherName": [
@@ -6912,7 +6912,7 @@
   {
     "internalId": 159,
     "songId": "maimaiちゃんのテーマ",
-    "type": "std",
+    "type": "标准",
     "bpm": 136,
     "version": "maimai PLUS",
     "otherName": [
@@ -6979,7 +6979,7 @@
   {
     "internalId": 181,
     "songId": "君の知らない物語",
-    "type": "std",
+    "type": "标准",
     "bpm": 181,
     "version": "GreeN",
     "otherName": [],
@@ -7043,7 +7043,7 @@
   {
     "internalId": 184,
     "songId": "I ♥",
-    "type": "std",
+    "type": "标准",
     "bpm": 132,
     "version": "GreeN",
     "otherName": [
@@ -7110,7 +7110,7 @@
   {
     "internalId": 185,
     "songId": "＊ハロー、プラネット。",
-    "type": "std",
+    "type": "标准",
     "bpm": 150,
     "version": "GreeN",
     "otherName": [
@@ -7181,7 +7181,7 @@
   {
     "internalId": 186,
     "songId": "イアイア★ナイトオブデザイア",
-    "type": "std",
+    "type": "标准",
     "bpm": 162,
     "version": "GreeN",
     "otherName": [
@@ -7249,7 +7249,7 @@
   {
     "internalId": 187,
     "songId": "ローリンガール",
-    "type": "std",
+    "type": "标准",
     "bpm": 195,
     "version": "GreeN",
     "otherName": [
@@ -7324,7 +7324,7 @@
   {
     "internalId": 188,
     "songId": "天ノ弱",
-    "type": "std",
+    "type": "标准",
     "bpm": 200,
     "version": "GreeN",
     "otherName": [
@@ -7400,7 +7400,7 @@
   {
     "internalId": 189,
     "songId": "弱虫モンブラン",
-    "type": "std",
+    "type": "标准",
     "bpm": 120,
     "version": "GreeN",
     "otherName": [
@@ -7479,7 +7479,7 @@
   {
     "internalId": 190,
     "songId": "モザイクロール",
-    "type": "std",
+    "type": "标准",
     "bpm": 130,
     "version": "GreeN",
     "otherName": [
@@ -7549,7 +7549,7 @@
   {
     "internalId": 191,
     "songId": "脳漿炸裂ガール",
-    "type": "std",
+    "type": "标准",
     "bpm": 155,
     "version": "GreeN",
     "otherName": [
@@ -7643,7 +7643,7 @@
   {
     "internalId": 192,
     "songId": "SPiCa",
-    "type": "std",
+    "type": "标准",
     "bpm": 162,
     "version": "GreeN PLUS",
     "otherName": [],
@@ -7707,7 +7707,7 @@
   {
     "internalId": 193,
     "songId": "セツナトリップ",
-    "type": "std",
+    "type": "标准",
     "bpm": 145,
     "version": "GreeN",
     "otherName": [
@@ -7781,7 +7781,7 @@
   {
     "internalId": 194,
     "songId": "放課後ストライド",
-    "type": "std",
+    "type": "标准",
     "bpm": 225,
     "version": "GreeN",
     "otherName": [
@@ -7849,7 +7849,7 @@
   {
     "internalId": 198,
     "songId": "カゲロウデイズ",
-    "type": "std",
+    "type": "标准",
     "bpm": 200,
     "version": "GreeN",
     "otherName": [
@@ -7942,7 +7942,7 @@
   {
     "internalId": 199,
     "songId": "チルノのパーフェクトさんすう教室",
-    "type": "std",
+    "type": "标准",
     "bpm": 175,
     "version": "GreeN",
     "otherName": [
@@ -8018,7 +8018,7 @@
   {
     "internalId": 200,
     "songId": "Bad Apple!! feat.nomico",
-    "type": "std",
+    "type": "标准",
     "bpm": 138,
     "version": "GreeN",
     "otherName": [
@@ -8113,7 +8113,7 @@
   {
     "internalId": 201,
     "songId": "魔理沙は大変なものを盗んでいきました",
-    "type": "std",
+    "type": "标准",
     "bpm": 170,
     "version": "GreeN",
     "otherName": [
@@ -8193,7 +8193,7 @@
   {
     "internalId": 202,
     "songId": "Grip & Break down !!",
-    "type": "std",
+    "type": "标准",
     "bpm": 160,
     "version": "GreeN",
     "otherName": [
@@ -8266,7 +8266,7 @@
   {
     "internalId": 203,
     "songId": "Help me, ERINNNNNN!!（Band ver.）",
-    "type": "std",
+    "type": "标准",
     "bpm": 183,
     "version": "GreeN",
     "otherName": [
@@ -8338,7 +8338,7 @@
   {
     "internalId": 204,
     "songId": "ナイト・オブ・ナイツ",
-    "type": "std",
+    "type": "标准",
     "bpm": 180,
     "version": "GreeN",
     "otherName": [
@@ -8448,7 +8448,7 @@
   {
     "internalId": 205,
     "songId": "全人類ノ非想天則",
-    "type": "std",
+    "type": "标准",
     "bpm": 168,
     "version": "GreeN",
     "otherName": [
@@ -8520,7 +8520,7 @@
   {
     "internalId": 206,
     "songId": "しゅわスパ大作戦☆",
-    "type": "std",
+    "type": "标准",
     "bpm": 140,
     "version": "GreeN",
     "otherName": [
@@ -8594,7 +8594,7 @@
   {
     "internalId": 207,
     "songId": "時空を超えて久しぶり！",
-    "type": "std",
+    "type": "标准",
     "bpm": 145,
     "version": "GreeN",
     "otherName": [
@@ -8669,7 +8669,7 @@
   {
     "internalId": 208,
     "songId": "Her Dream Is To Be A Fantastic Sorceress",
-    "type": "std",
+    "type": "标准",
     "bpm": 170,
     "version": "GreeN",
     "otherName": [
@@ -8736,7 +8736,7 @@
   {
     "internalId": 209,
     "songId": "ココロスキャンのうた",
-    "type": "std",
+    "type": "标准",
     "bpm": 203,
     "version": "GreeN",
     "otherName": [
@@ -8810,7 +8810,7 @@
   {
     "internalId": 212,
     "songId": "神室雪月花",
-    "type": "std",
+    "type": "标准",
     "bpm": 86,
     "version": "GreeN",
     "otherName": [
@@ -8883,7 +8883,7 @@
   {
     "internalId": 213,
     "songId": "KONNANじゃないっ！",
-    "type": "std",
+    "type": "标准",
     "bpm": 155,
     "version": "GreeN",
     "otherName": [
@@ -8961,7 +8961,7 @@
   {
     "internalId": 214,
     "songId": "awake",
-    "type": "std",
+    "type": "标准",
     "bpm": 170,
     "version": "GreeN",
     "otherName": [
@@ -9028,7 +9028,7 @@
   {
     "internalId": 216,
     "songId": "Mysterious Destiny",
-    "type": "std",
+    "type": "标准",
     "bpm": 140,
     "version": "GreeN",
     "otherName": [
@@ -9101,7 +9101,7 @@
   {
     "internalId": 217,
     "songId": "Riders Of The Light",
-    "type": "std",
+    "type": "标准",
     "bpm": 143,
     "version": "GreeN",
     "otherName": [
@@ -9168,7 +9168,7 @@
   {
     "internalId": 218,
     "songId": "Terminal Storm",
-    "type": "std",
+    "type": "标准",
     "bpm": 160,
     "version": "GreeN",
     "otherName": [
@@ -9235,7 +9235,7 @@
   {
     "internalId": 219,
     "songId": "記憶、記録",
-    "type": "std",
+    "type": "标准",
     "bpm": 185,
     "version": "GreeN",
     "otherName": [
@@ -9336,7 +9336,7 @@
   {
     "internalId": 220,
     "songId": "セガサターン起動音[H.][Remix]",
-    "type": "std",
+    "type": "标准",
     "bpm": 148,
     "version": "GreeN",
     "otherName": [
@@ -9416,7 +9416,7 @@
   {
     "internalId": 223,
     "songId": "夜咄ディセイブ",
-    "type": "std",
+    "type": "标准",
     "bpm": 260,
     "version": "GreeN",
     "otherName": [
@@ -9492,7 +9492,7 @@
   {
     "internalId": 224,
     "songId": "ウサテイ",
-    "type": "std",
+    "type": "标准",
     "bpm": 190,
     "version": "GreeN",
     "otherName": [
@@ -9570,7 +9570,7 @@
   {
     "internalId": 225,
     "songId": "sweet little sister",
-    "type": "std",
+    "type": "标准",
     "bpm": 168,
     "version": "GreeN PLUS",
     "otherName": [
@@ -9638,7 +9638,7 @@
   {
     "internalId": 226,
     "songId": "Blew Moon",
-    "type": "std",
+    "type": "标准",
     "bpm": 180,
     "version": "GreeN",
     "otherName": [
@@ -9728,7 +9728,7 @@
   {
     "internalId": 227,
     "songId": "Garakuta Doll Play",
-    "type": "std",
+    "type": "标准",
     "bpm": 256,
     "version": "GreeN",
     "otherName": [
@@ -9844,7 +9844,7 @@
   {
     "internalId": 228,
     "songId": "Dreampainter",
-    "type": "std",
+    "type": "标准",
     "bpm": 136,
     "version": "ORANGE",
     "otherName": [
@@ -9912,7 +9912,7 @@
   {
     "internalId": 229,
     "songId": "ぐるぐるWASH！コインランドリー・ディスコ",
-    "type": "std",
+    "type": "标准",
     "bpm": 132,
     "version": "GreeN PLUS",
     "otherName": [
@@ -9989,7 +9989,7 @@
   {
     "internalId": 230,
     "songId": "CYCLES",
-    "type": "std",
+    "type": "标准",
     "bpm": 135,
     "version": "GreeN PLUS",
     "otherName": [
@@ -10072,7 +10072,7 @@
   {
     "internalId": 231,
     "songId": "Heartbeats",
-    "type": "std",
+    "type": "标准",
     "bpm": 170,
     "version": "GreeN PLUS",
     "otherName": [
@@ -10139,7 +10139,7 @@
   {
     "internalId": 232,
     "songId": "Life Feels Good",
-    "type": "std",
+    "type": "标准",
     "bpm": 180,
     "version": "GreeN PLUS",
     "otherName": [
@@ -10209,7 +10209,7 @@
   {
     "internalId": 233,
     "songId": "MYTHOS",
-    "type": "std",
+    "type": "标准",
     "bpm": 158,
     "version": "GreeN PLUS",
     "otherName": [
@@ -10286,7 +10286,7 @@
   {
     "internalId": 234,
     "songId": "End of Twilight",
-    "type": "std",
+    "type": "标准",
     "bpm": 180,
     "version": "GreeN PLUS",
     "otherName": [
@@ -10355,7 +10355,7 @@
   {
     "internalId": 235,
     "songId": "火炎地獄",
-    "type": "std",
+    "type": "标准",
     "bpm": 216,
     "version": "GreeN PLUS",
     "otherName": [
@@ -10436,7 +10436,7 @@
   {
     "internalId": 236,
     "songId": "ユビキリ",
-    "type": "std",
+    "type": "标准",
     "bpm": 174,
     "version": "MURASAKi PLUS",
     "otherName": [
@@ -10512,7 +10512,7 @@
   {
     "internalId": 237,
     "songId": "Pixel Voyage",
-    "type": "std",
+    "type": "标准",
     "bpm": 170,
     "version": "GreeN",
     "otherName": [
@@ -10584,7 +10584,7 @@
   {
     "internalId": 238,
     "songId": "Get Happy",
-    "type": "std",
+    "type": "标准",
     "bpm": 150,
     "version": "GreeN",
     "otherName": [
@@ -10660,7 +10660,7 @@
   {
     "internalId": 239,
     "songId": "System “Z”",
-    "type": "std",
+    "type": "标准",
     "bpm": 147,
     "version": "GreeN",
     "otherName": [
@@ -10761,7 +10761,7 @@
   {
     "internalId": 240,
     "songId": "Beat of getting entangled",
-    "type": "std",
+    "type": "标准",
     "bpm": 140,
     "version": "GreeN",
     "otherName": [
@@ -10862,7 +10862,7 @@
   {
     "internalId": 241,
     "songId": "Cosmic Train",
-    "type": "std",
+    "type": "标准",
     "bpm": 140,
     "version": "GreeN",
     "otherName": [
@@ -10935,7 +10935,7 @@
   {
     "internalId": 242,
     "songId": "ナミダと流星",
-    "type": "std",
+    "type": "标准",
     "bpm": 190,
     "version": "ORANGE PLUS",
     "otherName": [
@@ -11005,7 +11005,7 @@
   {
     "internalId": 244,
     "songId": "おても☆Yan",
-    "type": "std",
+    "type": "标准",
     "bpm": 90,
     "version": "ORANGE",
     "otherName": [
@@ -11082,7 +11082,7 @@
   {
     "internalId": 246,
     "songId": "maiム・maiム feat.週刊少年マガジン",
-    "type": "std",
+    "type": "标准",
     "bpm": 140,
     "version": "GreeN",
     "otherName": [
@@ -11157,7 +11157,7 @@
   {
     "internalId": 247,
     "songId": "Danza zandA",
-    "type": "std",
+    "type": "标准",
     "bpm": 129,
     "version": "GreeN PLUS",
     "otherName": [
@@ -11241,7 +11241,7 @@
   {
     "internalId": 248,
     "songId": "Backyun! －悪い女－",
-    "type": "std",
+    "type": "标准",
     "bpm": 140,
     "version": "GreeN",
     "otherName": [
@@ -11324,7 +11324,7 @@
   {
     "internalId": 251,
     "songId": "Monochrome Rainbow",
-    "type": "std",
+    "type": "标准",
     "bpm": 182,
     "version": "GreeN PLUS",
     "otherName": [
@@ -11393,7 +11393,7 @@
   {
     "internalId": 252,
     "songId": "みんなのマイマイマー",
-    "type": "std",
+    "type": "标准",
     "bpm": 175,
     "version": "GreeN",
     "otherName": [
@@ -11486,7 +11486,7 @@
   {
     "internalId": 253,
     "songId": "円舞曲、君に",
-    "type": "std",
+    "type": "标准",
     "bpm": 128,
     "version": "GreeN",
     "otherName": [
@@ -11553,7 +11553,7 @@
   {
     "internalId": 254,
     "songId": "Live & Learn",
-    "type": "std",
+    "type": "标准",
     "bpm": 172,
     "version": "GreeN PLUS",
     "otherName": [
@@ -11621,7 +11621,7 @@
   {
     "internalId": 255,
     "songId": "Burning Hearts ～炎のANGEL～",
-    "type": "std",
+    "type": "标准",
     "bpm": 155,
     "version": "GreeN",
     "otherName": [
@@ -11711,7 +11711,7 @@
   {
     "internalId": 256,
     "songId": "いーあるふぁんくらぶ",
-    "type": "std",
+    "type": "标准",
     "bpm": 145,
     "version": "GreeN",
     "otherName": [
@@ -11805,7 +11805,7 @@
   {
     "internalId": 258,
     "songId": "Nyan Cat EX",
-    "type": "std",
+    "type": "标准",
     "bpm": 150,
     "version": "GreeN",
     "otherName": [
@@ -11876,7 +11876,7 @@
   {
     "internalId": 259,
     "songId": "ぽっぴっぽー",
-    "type": "std",
+    "type": "标准",
     "bpm": 150,
     "version": "GreeN",
     "otherName": [
@@ -11946,7 +11946,7 @@
   {
     "internalId": 260,
     "songId": "LUCIA",
-    "type": "std",
+    "type": "标准",
     "bpm": 154,
     "version": "GreeN",
     "otherName": [
@@ -12029,7 +12029,7 @@
   {
     "internalId": 261,
     "songId": "Death Scythe",
-    "type": "std",
+    "type": "标准",
     "bpm": 182,
     "version": "GreeN",
     "otherName": [
@@ -12122,7 +12122,7 @@
   {
     "internalId": 262,
     "songId": "BREAK YOU!!",
-    "type": "std",
+    "type": "标准",
     "bpm": 167,
     "version": "GreeN",
     "otherName": [
@@ -12196,7 +12196,7 @@
   {
     "internalId": 263,
     "songId": "JUMPIN' JUMPIN'",
-    "type": "std",
+    "type": "标准",
     "bpm": 163,
     "version": "GreeN",
     "otherName": [
@@ -12264,7 +12264,7 @@
   {
     "internalId": 264,
     "songId": "L'épilogue",
-    "type": "std",
+    "type": "标准",
     "bpm": 145,
     "version": "GreeN",
     "otherName": [
@@ -12337,7 +12337,7 @@
   {
     "internalId": 265,
     "songId": "Save This World νMIX",
-    "type": "std",
+    "type": "标准",
     "bpm": 143,
     "version": "GreeN",
     "otherName": [
@@ -12424,7 +12424,7 @@
   {
     "internalId": 266,
     "songId": "Living Universe",
-    "type": "std",
+    "type": "标准",
     "bpm": 155,
     "version": "GreeN",
     "otherName": [
@@ -12505,7 +12505,7 @@
   {
     "internalId": 267,
     "songId": "Ignite Infinity",
-    "type": "std",
+    "type": "标准",
     "bpm": 160,
     "version": "GreeN",
     "otherName": [
@@ -12571,7 +12571,7 @@
   {
     "internalId": 268,
     "songId": "トルコ行進曲 - オワタ＼(^o^)／",
-    "type": "std",
+    "type": "标准",
     "bpm": 120,
     "version": "GreeN",
     "otherName": [
@@ -12651,7 +12651,7 @@
   {
     "internalId": 269,
     "songId": "裏表ラバーズ",
-    "type": "std",
+    "type": "标准",
     "bpm": 159,
     "version": "GreeN",
     "otherName": [
@@ -12728,7 +12728,7 @@
   {
     "internalId": 270,
     "songId": "Outlaw's Lullaby",
-    "type": "std",
+    "type": "标准",
     "bpm": 145,
     "version": "GreeN PLUS",
     "otherName": [
@@ -12807,7 +12807,7 @@
   {
     "internalId": 271,
     "songId": "Brand-new Japanesque",
-    "type": "std",
+    "type": "标准",
     "bpm": 135,
     "version": "GreeN PLUS",
     "otherName": [
@@ -12875,7 +12875,7 @@
   {
     "internalId": 278,
     "songId": "レッツゴー!陰陽師",
-    "type": "std",
+    "type": "标准",
     "bpm": 150,
     "version": "GreeN PLUS",
     "otherName": [
@@ -12948,7 +12948,7 @@
   {
     "internalId": 280,
     "songId": "炉心融解",
-    "type": "std",
+    "type": "标准",
     "bpm": 165,
     "version": "MURASAKi",
     "otherName": [
@@ -13016,7 +13016,7 @@
   {
     "internalId": 281,
     "songId": "ダブルラリアット",
-    "type": "std",
+    "type": "标准",
     "bpm": 138,
     "version": "ORANGE",
     "otherName": [
@@ -13088,7 +13088,7 @@
   {
     "internalId": 282,
     "songId": "からくりピエロ",
-    "type": "std",
+    "type": "标准",
     "bpm": 102,
     "version": "GreeN PLUS",
     "otherName": [
@@ -13174,7 +13174,7 @@
   {
     "internalId": 283,
     "songId": "ネトゲ廃人シュプレヒコール",
-    "type": "std",
+    "type": "标准",
     "bpm": 175,
     "version": "MURASAKi",
     "otherName": [
@@ -13256,7 +13256,7 @@
   {
     "internalId": 284,
     "songId": "むかしむかしのきょうのぼく",
-    "type": "std",
+    "type": "标准",
     "bpm": 130,
     "version": "GreeN PLUS",
     "otherName": [],
@@ -13320,7 +13320,7 @@
   {
     "internalId": 285,
     "songId": "magician's operation",
-    "type": "std",
+    "type": "标准",
     "bpm": 125,
     "version": "GreeN PLUS",
     "otherName": [
@@ -13391,7 +13391,7 @@
   {
     "internalId": 288,
     "songId": "六兆年と一夜物語",
-    "type": "std",
+    "type": "标准",
     "bpm": 186,
     "version": "ORANGE PLUS",
     "otherName": [
@@ -13475,7 +13475,7 @@
   {
     "internalId": 289,
     "songId": "みくみくにしてあげる♪【してやんよ】",
-    "type": "std",
+    "type": "标准",
     "bpm": 160,
     "version": "ORANGE PLUS",
     "otherName": [
@@ -13546,7 +13546,7 @@
   {
     "internalId": 290,
     "songId": "リリリリ★バーニングナイト",
-    "type": "std",
+    "type": "标准",
     "bpm": 165,
     "version": "GreeN PLUS",
     "otherName": [
@@ -13619,7 +13619,7 @@
   {
     "internalId": 291,
     "songId": "ハロ／ハワユ",
-    "type": "std",
+    "type": "标准",
     "bpm": 95,
     "version": "GreeN PLUS",
     "otherName": [
@@ -13691,7 +13691,7 @@
   {
     "internalId": 293,
     "songId": "Our Fighting",
-    "type": "std",
+    "type": "标准",
     "bpm": 165,
     "version": "ORANGE PLUS",
     "otherName": [],
@@ -13755,7 +13755,7 @@
   {
     "internalId": 295,
     "songId": "緋色のDance",
-    "type": "std",
+    "type": "标准",
     "bpm": 155,
     "version": "ORANGE",
     "otherName": [
@@ -13842,7 +13842,7 @@
   {
     "internalId": 296,
     "songId": "明星ロケット",
-    "type": "std",
+    "type": "标准",
     "bpm": 163,
     "version": "ORANGE",
     "otherName": [
@@ -13925,7 +13925,7 @@
   {
     "internalId": 297,
     "songId": "The Great Journey",
-    "type": "std",
+    "type": "标准",
     "bpm": 135,
     "version": "ORANGE",
     "otherName": [
@@ -13993,7 +13993,7 @@
   {
     "internalId": 298,
     "songId": "お嫁にしなさいっ！",
-    "type": "std",
+    "type": "标准",
     "bpm": 180,
     "version": "GreeN PLUS",
     "otherName": [
@@ -14065,7 +14065,7 @@
   {
     "internalId": 299,
     "songId": "ロストワンの号哭",
-    "type": "std",
+    "type": "标准",
     "bpm": 162,
     "version": "ORANGE PLUS",
     "otherName": [
@@ -14166,7 +14166,7 @@
   {
     "internalId": 300,
     "songId": "Sweet Devil",
-    "type": "std",
+    "type": "标准",
     "bpm": 132,
     "version": "ORANGE PLUS",
     "otherName": [],
@@ -14230,7 +14230,7 @@
   {
     "internalId": 301,
     "songId": "患部で止まってすぐ溶ける～狂気の優曇華院",
-    "type": "std",
+    "type": "标准",
     "bpm": 200,
     "version": "GreeN PLUS",
     "otherName": [
@@ -14331,7 +14331,7 @@
   {
     "internalId": 302,
     "songId": "ケロ⑨destiny",
-    "type": "std",
+    "type": "标准",
     "bpm": 172,
     "version": "ORANGE PLUS",
     "otherName": [
@@ -14400,7 +14400,7 @@
   {
     "internalId": 303,
     "songId": "Endless, Sleepless Night",
-    "type": "std",
+    "type": "标准",
     "bpm": 165,
     "version": "GreeN PLUS",
     "otherName": [
@@ -14471,7 +14471,7 @@
   {
     "internalId": 305,
     "songId": "POP STAR",
-    "type": "std",
+    "type": "标准",
     "bpm": 140,
     "version": "GreeN PLUS",
     "otherName": [
@@ -14537,7 +14537,7 @@
   {
     "internalId": 308,
     "songId": "Back 2 Back",
-    "type": "std",
+    "type": "标准",
     "bpm": 150,
     "version": "GreeN PLUS",
     "otherName": [
@@ -14614,7 +14614,7 @@
   {
     "internalId": 309,
     "songId": "神々の祈り",
-    "type": "std",
+    "type": "标准",
     "bpm": 130,
     "version": "GreeN PLUS",
     "otherName": [
@@ -14683,7 +14683,7 @@
   {
     "internalId": 310,
     "songId": "エピクロスの虹はもう見えない",
-    "type": "std",
+    "type": "标准",
     "bpm": 155,
     "version": "GreeN PLUS",
     "otherName": [
@@ -14772,7 +14772,7 @@
   {
     "internalId": 311,
     "songId": "シアワセうさぎ",
-    "type": "std",
+    "type": "标准",
     "bpm": 140,
     "version": "GreeN PLUS",
     "otherName": [
@@ -14839,7 +14839,7 @@
   {
     "internalId": 312,
     "songId": "ってゐ！ ～えいえんてゐVer～",
-    "type": "std",
+    "type": "标准",
     "bpm": 156,
     "version": "ORANGE PLUS",
     "otherName": [
@@ -14922,7 +14922,7 @@
   {
     "internalId": 313,
     "songId": "待チ人ハ来ズ。",
-    "type": "std",
+    "type": "标准",
     "bpm": 160,
     "version": "GreeN PLUS",
     "otherName": [
@@ -14995,7 +14995,7 @@
   {
     "internalId": 314,
     "songId": "Cosmic Magic Shooter",
-    "type": "std",
+    "type": "标准",
     "bpm": 163,
     "version": "ORANGE",
     "otherName": [
@@ -15070,7 +15070,7 @@
   {
     "internalId": 315,
     "songId": "深海少女",
-    "type": "std",
+    "type": "标准",
     "bpm": 137,
     "version": "GreeN PLUS",
     "otherName": [
@@ -15145,7 +15145,7 @@
   {
     "internalId": 316,
     "songId": "M.S.S.Planet",
-    "type": "std",
+    "type": "标准",
     "bpm": 145,
     "version": "GreeN PLUS",
     "otherName": [
@@ -15215,7 +15215,7 @@
   {
     "internalId": 318,
     "songId": "東方スイーツ！～鬼畜姉妹と受難メイド～",
-    "type": "std",
+    "type": "标准",
     "bpm": 179,
     "version": "ORANGE PLUS",
     "otherName": [
@@ -15284,7 +15284,7 @@
   {
     "internalId": 319,
     "songId": "幻想のサテライト",
-    "type": "std",
+    "type": "标准",
     "bpm": 230,
     "version": "GreeN PLUS",
     "otherName": [
@@ -15367,7 +15367,7 @@
   {
     "internalId": 320,
     "songId": "最速最高シャッターガール",
-    "type": "std",
+    "type": "标准",
     "bpm": 160,
     "version": "GreeN PLUS",
     "otherName": [
@@ -15434,7 +15434,7 @@
   {
     "internalId": 321,
     "songId": "バラライカ",
-    "type": "std",
+    "type": "标准",
     "bpm": 140,
     "version": "GreeN PLUS",
     "otherName": [
@@ -15502,7 +15502,7 @@
   {
     "internalId": 322,
     "songId": "林檎華憐歌",
-    "type": "std",
+    "type": "标准",
     "bpm": 144,
     "version": "GreeN PLUS",
     "otherName": [
@@ -15572,7 +15572,7 @@
   {
     "internalId": 323,
     "songId": "YATTA!",
-    "type": "std",
+    "type": "标准",
     "bpm": 133,
     "version": "GreeN PLUS",
     "otherName": [
@@ -15641,7 +15641,7 @@
   {
     "internalId": 324,
     "songId": "Jack-the-Ripper◆",
-    "type": "std",
+    "type": "标准",
     "bpm": 210,
     "version": "GreeN PLUS",
     "otherName": [
@@ -15719,7 +15719,7 @@
   {
     "internalId": 325,
     "songId": "Windy Hill -Zone 1",
-    "type": "std",
+    "type": "标准",
     "bpm": 194,
     "version": "GreeN PLUS",
     "otherName": [
@@ -15792,7 +15792,7 @@
   {
     "internalId": 326,
     "songId": "コトバ・カラフル",
-    "type": "std",
+    "type": "标准",
     "bpm": 169,
     "version": "GreeN PLUS",
     "otherName": [
@@ -15867,7 +15867,7 @@
   {
     "internalId": 327,
     "songId": "タカハせ！名人マン",
-    "type": "std",
+    "type": "标准",
     "bpm": 150,
     "version": "GreeN PLUS",
     "otherName": [
@@ -15950,7 +15950,7 @@
   {
     "internalId": 328,
     "songId": "言ノ葉カルマ",
-    "type": "std",
+    "type": "标准",
     "bpm": 150,
     "version": "GreeN PLUS",
     "otherName": [
@@ -16034,7 +16034,7 @@
   {
     "internalId": 329,
     "songId": "かせげ！ジャリンコヒーロー",
-    "type": "std",
+    "type": "标准",
     "bpm": 186,
     "version": "GreeN PLUS",
     "otherName": [
@@ -16102,7 +16102,7 @@
   {
     "internalId": 330,
     "songId": "キズナの物語",
-    "type": "std",
+    "type": "标准",
     "bpm": 128,
     "version": "GreeN PLUS",
     "otherName": [
@@ -16176,7 +16176,7 @@
   {
     "internalId": 331,
     "songId": "Heart Beats",
-    "type": "std",
+    "type": "标准",
     "bpm": 128,
     "version": "ORANGE",
     "otherName": [
@@ -16244,7 +16244,7 @@
   {
     "internalId": 332,
     "songId": "アゲアゲアゲイン",
-    "type": "std",
+    "type": "标准",
     "bpm": 175,
     "version": "GreeN PLUS",
     "otherName": [],
@@ -16308,7 +16308,7 @@
   {
     "internalId": 336,
     "songId": "紅蓮の弓矢",
-    "type": "std",
+    "type": "标准",
     "bpm": 180,
     "version": "GreeN PLUS",
     "otherName": [],
@@ -16372,7 +16372,7 @@
   {
     "internalId": 337,
     "songId": "鼓動",
-    "type": "std",
+    "type": "标准",
     "bpm": 121,
     "version": "GreeN PLUS",
     "otherName": [
@@ -16445,7 +16445,7 @@
   {
     "internalId": 339,
     "songId": "DRAGONLADY",
-    "type": "std",
+    "type": "标准",
     "bpm": 150,
     "version": "GreeN PLUS",
     "otherName": [
@@ -16531,7 +16531,7 @@
   {
     "internalId": 341,
     "songId": "二息歩行",
-    "type": "std",
+    "type": "标准",
     "bpm": 180,
     "version": "GreeN PLUS",
     "otherName": [
@@ -16607,7 +16607,7 @@
   {
     "internalId": 342,
     "songId": "ファンタジーゾーン OPA-OPA! -GMT remix-",
-    "type": "std",
+    "type": "标准",
     "bpm": 142,
     "version": "GreeN PLUS",
     "otherName": [
@@ -16678,7 +16678,7 @@
   {
     "internalId": 343,
     "songId": "電車で電車でGO!GO!GO!GC! -GMT remix-",
-    "type": "std",
+    "type": "标准",
     "bpm": 134,
     "version": "GreeN PLUS",
     "otherName": [
@@ -16745,7 +16745,7 @@
   {
     "internalId": 344,
     "songId": "RIDGE RACER STEPS -GMT remix-",
-    "type": "std",
+    "type": "标准",
     "bpm": 240,
     "version": "GreeN PLUS",
     "otherName": [
@@ -16816,7 +16816,7 @@
   {
     "internalId": 345,
     "songId": "リッジでリッジでGO!GO!GO! -GMT mashup-",
-    "type": "std",
+    "type": "标准",
     "bpm": 146,
     "version": "GreeN PLUS",
     "otherName": [
@@ -16889,7 +16889,7 @@
   {
     "internalId": 346,
     "songId": "オパ! オパ! RACER -GMT mashup-",
-    "type": "std",
+    "type": "标准",
     "bpm": 172,
     "version": "GreeN PLUS",
     "otherName": [
@@ -16963,7 +16963,7 @@
   {
     "internalId": 347,
     "songId": "電車で電車でOPA!OPA!OPA! -GMT mashup-",
-    "type": "std",
+    "type": "标准",
     "bpm": 134,
     "version": "GreeN PLUS",
     "otherName": [
@@ -17036,7 +17036,7 @@
   {
     "internalId": 348,
     "songId": "Axeria",
-    "type": "std",
+    "type": "标准",
     "bpm": 193,
     "version": "ORANGE PLUS",
     "otherName": [
@@ -17108,7 +17108,7 @@
   {
     "internalId": 349,
     "songId": "ピーマンたべたら",
-    "type": "std",
+    "type": "标准",
     "bpm": 178,
     "version": "ORANGE",
     "otherName": [
@@ -17181,7 +17181,7 @@
   {
     "internalId": 351,
     "songId": "MIRROR of MAGIC",
-    "type": "std",
+    "type": "标准",
     "bpm": 135,
     "version": "ORANGE",
     "otherName": [
@@ -17252,7 +17252,7 @@
   {
     "internalId": 352,
     "songId": "究極焼肉レストラン！お燐の地獄亭！",
-    "type": "std",
+    "type": "标准",
     "bpm": 185,
     "version": "ORANGE",
     "otherName": [
@@ -17322,7 +17322,7 @@
   {
     "internalId": 353,
     "songId": "shake it!",
-    "type": "std",
+    "type": "标准",
     "bpm": 130,
     "version": "ORANGE",
     "otherName": [
@@ -17394,7 +17394,7 @@
   {
     "internalId": 356,
     "songId": "1/3の純情な感情",
-    "type": "std",
+    "type": "标准",
     "bpm": 152,
     "version": "ORANGE PLUS",
     "otherName": [],
@@ -17458,7 +17458,7 @@
   {
     "internalId": 359,
     "songId": "YU-MU",
-    "type": "std",
+    "type": "标准",
     "bpm": 160,
     "version": "PiNK",
     "otherName": [
@@ -17529,7 +17529,7 @@
   {
     "internalId": 360,
     "songId": "物凄い勢いでけーねが物凄いうた",
-    "type": "std",
+    "type": "标准",
     "bpm": 180,
     "version": "PiNK",
     "otherName": [
@@ -17608,7 +17608,7 @@
   {
     "internalId": 362,
     "songId": "BETTER CHOICE",
-    "type": "std",
+    "type": "标准",
     "bpm": 130,
     "version": "ORANGE",
     "otherName": [
@@ -17677,7 +17677,7 @@
   {
     "internalId": 363,
     "songId": "Oshama Scramble!",
-    "type": "std",
+    "type": "标准",
     "bpm": 190,
     "version": "ORANGE PLUS",
     "otherName": [
@@ -17776,7 +17776,7 @@
   {
     "internalId": 364,
     "songId": "D✪N’T  ST✪P  R✪CKIN’",
-    "type": "std",
+    "type": "标准",
     "bpm": 140,
     "version": "ORANGE PLUS",
     "otherName": [
@@ -17877,7 +17877,7 @@
   {
     "internalId": 365,
     "songId": "ガラテアの螺旋",
-    "type": "std",
+    "type": "标准",
     "bpm": 200,
     "version": "ORANGE PLUS",
     "otherName": [
@@ -17980,7 +17980,7 @@
   {
     "internalId": 366,
     "songId": "oboro",
-    "type": "std",
+    "type": "标准",
     "bpm": 175,
     "version": "ORANGE",
     "otherName": [
@@ -18061,7 +18061,7 @@
   {
     "internalId": 367,
     "songId": "Dragoon",
-    "type": "std",
+    "type": "标准",
     "bpm": 175,
     "version": "ORANGE",
     "otherName": [
@@ -18160,7 +18160,7 @@
   {
     "internalId": 371,
     "songId": "Stand Up!!!!",
-    "type": "std",
+    "type": "标准",
     "bpm": 185,
     "version": "ORANGE",
     "otherName": [],
@@ -18224,7 +18224,7 @@
   {
     "internalId": 374,
     "songId": "アンハッピーリフレイン",
-    "type": "std",
+    "type": "标准",
     "bpm": 205,
     "version": "ORANGE",
     "otherName": [
@@ -18295,7 +18295,7 @@
   {
     "internalId": 375,
     "songId": "One Step Ahead",
-    "type": "std",
+    "type": "标准",
     "bpm": 186,
     "version": "ORANGE",
     "otherName": [
@@ -18363,7 +18363,7 @@
   {
     "internalId": 376,
     "songId": "L9",
-    "type": "std",
+    "type": "标准",
     "bpm": 256,
     "version": "ORANGE PLUS",
     "otherName": [
@@ -18436,7 +18436,7 @@
   {
     "internalId": 378,
     "songId": "planet dancer",
-    "type": "std",
+    "type": "标准",
     "bpm": 127,
     "version": "ORANGE",
     "otherName": [
@@ -18525,7 +18525,7 @@
   {
     "internalId": 379,
     "songId": "Caliburne ～Story of the Legendary sword～",
-    "type": "std",
+    "type": "标准",
     "bpm": 190,
     "version": "ORANGE",
     "otherName": [
@@ -18610,7 +18610,7 @@
   {
     "internalId": 380,
     "songId": "どうしてこうなった",
-    "type": "std",
+    "type": "标准",
     "bpm": 180,
     "version": "ORANGE PLUS",
     "otherName": [
@@ -18682,7 +18682,7 @@
   {
     "internalId": 381,
     "songId": "B.B.K.K.B.K.K.",
-    "type": "std",
+    "type": "标准",
     "bpm": 170,
     "version": "ORANGE",
     "otherName": [
@@ -18763,7 +18763,7 @@
   {
     "internalId": 382,
     "songId": "おこちゃま戦争",
-    "type": "std",
+    "type": "标准",
     "bpm": 175,
     "version": "ORANGE",
     "otherName": [
@@ -18835,7 +18835,7 @@
   {
     "internalId": 383,
     "songId": "Link (2)",
-    "type": "std",
+    "type": "标准",
     "bpm": 198,
     "version": "ORANGE",
     "otherName": [
@@ -18902,7 +18902,7 @@
   {
     "internalId": 384,
     "songId": "VERTeX",
-    "type": "std",
+    "type": "标准",
     "bpm": 237,
     "version": "ORANGE",
     "otherName": [
@@ -18975,7 +18975,7 @@
   {
     "internalId": 385,
     "songId": "Ignis Danse",
-    "type": "std",
+    "type": "标准",
     "bpm": 246,
     "version": "ORANGE",
     "otherName": [
@@ -19058,7 +19058,7 @@
   {
     "internalId": 386,
     "songId": "Scars of FAUNA",
-    "type": "std",
+    "type": "标准",
     "bpm": 165,
     "version": "ORANGE",
     "otherName": [
@@ -19128,7 +19128,7 @@
   {
     "internalId": 387,
     "songId": "FUJIN Rumble",
-    "type": "std",
+    "type": "标准",
     "bpm": 192,
     "version": "ORANGE",
     "otherName": [
@@ -19205,7 +19205,7 @@
   {
     "internalId": 388,
     "songId": "きたさいたま2000",
-    "type": "std",
+    "type": "标准",
     "bpm": 222,
     "version": "ORANGE",
     "otherName": [
@@ -19304,7 +19304,7 @@
   {
     "internalId": 389,
     "songId": "FLOWER",
-    "type": "std",
+    "type": "标准",
     "bpm": 173,
     "version": "ORANGE",
     "otherName": [
@@ -19396,7 +19396,7 @@
   {
     "internalId": 390,
     "songId": "Got more raves？",
-    "type": "std",
+    "type": "标准",
     "bpm": 266,
     "version": "ORANGE",
     "otherName": [
@@ -19468,7 +19468,7 @@
   {
     "internalId": 399,
     "songId": "不毛！",
-    "type": "std",
+    "type": "标准",
     "bpm": 200,
     "version": "ORANGE",
     "otherName": [
@@ -19535,7 +19535,7 @@
   {
     "internalId": 400,
     "songId": "デッドレッドガールズ",
-    "type": "std",
+    "type": "标准",
     "bpm": 230,
     "version": "ORANGE PLUS",
     "otherName": [
@@ -19609,7 +19609,7 @@
   {
     "internalId": 401,
     "songId": "赤心性：カマトト荒療治",
-    "type": "std",
+    "type": "标准",
     "bpm": 205,
     "version": "ORANGE PLUS",
     "otherName": [
@@ -19679,7 +19679,7 @@
   {
     "internalId": 403,
     "songId": "悪戯",
-    "type": "std",
+    "type": "标准",
     "bpm": 140,
     "version": "ORANGE PLUS",
     "otherName": [
@@ -19747,7 +19747,7 @@
   {
     "internalId": 404,
     "songId": "響縁",
-    "type": "std",
+    "type": "标准",
     "bpm": 180,
     "version": "ORANGE PLUS",
     "otherName": [
@@ -19817,7 +19817,7 @@
   {
     "internalId": 407,
     "songId": "LOL -lots of laugh-",
-    "type": "std",
+    "type": "标准",
     "bpm": 138,
     "version": "PiNK",
     "otherName": [],
@@ -19881,7 +19881,7 @@
   {
     "internalId": 408,
     "songId": "クローバー♣クラブ",
-    "type": "std",
+    "type": "标准",
     "bpm": 150,
     "version": "ORANGE PLUS",
     "otherName": [],
@@ -19945,7 +19945,7 @@
   {
     "internalId": 409,
     "songId": "妄想税",
-    "type": "std",
+    "type": "标准",
     "bpm": 134,
     "version": "ORANGE PLUS",
     "otherName": [],
@@ -20009,7 +20009,7 @@
   {
     "internalId": 410,
     "songId": "どういうことなの！？",
-    "type": "std",
+    "type": "标准",
     "bpm": 175,
     "version": "ORANGE PLUS",
     "otherName": [],
@@ -20077,7 +20077,7 @@
   {
     "internalId": 411,
     "songId": "初音ミクの消失",
-    "type": "std",
+    "type": "标准",
     "bpm": 240,
     "version": "PiNK",
     "otherName": [
@@ -20164,7 +20164,7 @@
   {
     "internalId": 412,
     "songId": "イノコリ先生",
-    "type": "std",
+    "type": "标准",
     "bpm": 162,
     "version": "PiNK",
     "otherName": [
@@ -20234,7 +20234,7 @@
   {
     "internalId": 413,
     "songId": "キャプテン・ムラサのケツアンカー",
-    "type": "std",
+    "type": "标准",
     "bpm": 190,
     "version": "ORANGE PLUS",
     "otherName": [
@@ -20303,7 +20303,7 @@
   {
     "internalId": 414,
     "songId": "若い力 -SEGA HARD GIRLS MIX-",
-    "type": "std",
+    "type": "标准",
     "bpm": 162,
     "version": "ORANGE PLUS",
     "otherName": [
@@ -20394,7 +20394,7 @@
   {
     "internalId": 417,
     "songId": "ウミユリ海底譚",
-    "type": "std",
+    "type": "标准",
     "bpm": 120,
     "version": "ORANGE PLUS",
     "otherName": [
@@ -20479,7 +20479,7 @@
   {
     "internalId": 418,
     "songId": "welcome to maimai!! with マイマイマー",
-    "type": "std",
+    "type": "标准",
     "bpm": 163,
     "version": "ORANGE PLUS",
     "otherName": [
@@ -20547,7 +20547,7 @@
   {
     "internalId": 419,
     "songId": "ストリーミングハート",
-    "type": "std",
+    "type": "标准",
     "bpm": 210,
     "version": "ORANGE PLUS",
     "otherName": [
@@ -20616,7 +20616,7 @@
   {
     "internalId": 420,
     "songId": "Change Our MIRAI！",
-    "type": "std",
+    "type": "标准",
     "bpm": 256,
     "version": "ORANGE PLUS",
     "otherName": [
@@ -20697,7 +20697,7 @@
   {
     "internalId": 421,
     "songId": "Aiolos",
-    "type": "std",
+    "type": "标准",
     "bpm": 205,
     "version": "ORANGE PLUS",
     "otherName": [
@@ -20774,7 +20774,7 @@
   {
     "internalId": 422,
     "songId": "LANCE",
-    "type": "std",
+    "type": "标准",
     "bpm": 156,
     "version": "ORANGE PLUS",
     "otherName": [
@@ -20849,7 +20849,7 @@
   {
     "internalId": 424,
     "songId": "橙の幻想郷音頭",
-    "type": "std",
+    "type": "标准",
     "bpm": 136,
     "version": "PiNK",
     "otherName": [
@@ -20929,7 +20929,7 @@
   {
     "internalId": 425,
     "songId": "東方妖々夢 ～the maximum moving about～",
-    "type": "std",
+    "type": "标准",
     "bpm": 196,
     "version": "PiNK",
     "otherName": [
@@ -21002,7 +21002,7 @@
   {
     "internalId": 426,
     "songId": "蒼空に舞え、墨染の桜",
-    "type": "std",
+    "type": "标准",
     "bpm": 150,
     "version": "PiNK",
     "otherName": [
@@ -21080,7 +21080,7 @@
   {
     "internalId": 427,
     "songId": "少女幻葬戦慄曲 ～ Necro Fantasia",
-    "type": "std",
+    "type": "标准",
     "bpm": 182,
     "version": "PiNK",
     "otherName": [
@@ -21152,7 +21152,7 @@
   {
     "internalId": 431,
     "songId": "Contrapasso -paradiso-",
-    "type": "std",
+    "type": "标准",
     "bpm": 243,
     "version": "PiNK PLUS",
     "otherName": [
@@ -21234,7 +21234,7 @@
   {
     "internalId": 432,
     "songId": "幸せになれる隠しコマンドがあるらしい",
-    "type": "std",
+    "type": "标准",
     "bpm": 142,
     "version": "MURASAKi PLUS",
     "otherName": [
@@ -21322,7 +21322,7 @@
   {
     "internalId": 434,
     "songId": "フラグメンツ -T.V. maimai edit-",
-    "type": "std",
+    "type": "标准",
     "bpm": 160,
     "version": "PiNK",
     "otherName": [
@@ -21391,7 +21391,7 @@
   {
     "internalId": 435,
     "songId": "願いを呼ぶ季節",
-    "type": "std",
+    "type": "标准",
     "bpm": 170,
     "version": "PiNK",
     "otherName": [
@@ -21462,7 +21462,7 @@
   {
     "internalId": 436,
     "songId": "おじゃま虫",
-    "type": "std",
+    "type": "标准",
     "bpm": 143,
     "version": "ORANGE PLUS",
     "otherName": [
@@ -21528,7 +21528,7 @@
   {
     "internalId": 437,
     "songId": "Yet Another ”drizzly rain”",
-    "type": "std",
+    "type": "标准",
     "bpm": 175,
     "version": "ORANGE PLUS",
     "otherName": [
@@ -21595,7 +21595,7 @@
   {
     "internalId": 438,
     "songId": "四次元跳躍機関",
-    "type": "std",
+    "type": "标准",
     "bpm": 135,
     "version": "ORANGE PLUS",
     "otherName": [
@@ -21671,7 +21671,7 @@
   {
     "internalId": 439,
     "songId": "最終鬼畜妹・一部声",
-    "type": "std",
+    "type": "标准",
     "bpm": 200,
     "version": "ORANGE PLUS",
     "otherName": [
@@ -21753,7 +21753,7 @@
   {
     "internalId": 440,
     "songId": "はじめまして地球人さん",
-    "type": "std",
+    "type": "标准",
     "bpm": 175,
     "version": "ORANGE PLUS",
     "otherName": [],
@@ -21817,7 +21817,7 @@
   {
     "internalId": 441,
     "songId": "Pursuing My True Self",
-    "type": "std",
+    "type": "标准",
     "bpm": 119,
     "version": "ORANGE PLUS",
     "otherName": [],
@@ -21881,7 +21881,7 @@
   {
     "internalId": 442,
     "songId": "Signs Of Love (“Never More” ver.)",
-    "type": "std",
+    "type": "标准",
     "bpm": 109,
     "version": "ORANGE PLUS",
     "otherName": [],
@@ -21945,7 +21945,7 @@
   {
     "internalId": 443,
     "songId": "specialist (“Never More” ver.)",
-    "type": "std",
+    "type": "标准",
     "bpm": 128,
     "version": "ORANGE PLUS",
     "otherName": [],
@@ -22009,7 +22009,7 @@
   {
     "internalId": 444,
     "songId": "Time To Make History (AKIRA YAMAOKA Remix)",
-    "type": "std",
+    "type": "标准",
     "bpm": 190,
     "version": "ORANGE PLUS",
     "otherName": [],
@@ -22073,7 +22073,7 @@
   {
     "internalId": 446,
     "songId": "GEMINI -M-",
-    "type": "std",
+    "type": "标准",
     "bpm": 180,
     "version": "PiNK",
     "otherName": [
@@ -22152,7 +22152,7 @@
   {
     "internalId": 447,
     "songId": "+♂",
-    "type": "std",
+    "type": "标准",
     "bpm": 180,
     "version": "PiNK",
     "otherName": [
@@ -22229,7 +22229,7 @@
   {
     "internalId": 448,
     "songId": "ありふれたせかいせいふく",
-    "type": "std",
+    "type": "标准",
     "bpm": 150,
     "version": "PiNK",
     "otherName": [
@@ -22305,7 +22305,7 @@
   {
     "internalId": 449,
     "songId": "すろぉもぉしょん",
-    "type": "std",
+    "type": "标准",
     "bpm": 160,
     "version": "PiNK",
     "otherName": [
@@ -22371,7 +22371,7 @@
   {
     "internalId": 451,
     "songId": "頓珍漢の宴",
-    "type": "std",
+    "type": "标准",
     "bpm": 145,
     "version": "PiNK",
     "otherName": [
@@ -22457,7 +22457,7 @@
   {
     "internalId": 453,
     "songId": "Garden Of The Dragon",
-    "type": "std",
+    "type": "标准",
     "bpm": 120,
     "version": "PiNK",
     "otherName": [
@@ -22532,7 +22532,7 @@
   {
     "internalId": 454,
     "songId": "After Burner",
-    "type": "std",
+    "type": "标准",
     "bpm": 155,
     "version": "PiNK",
     "otherName": [
@@ -22601,7 +22601,7 @@
   {
     "internalId": 455,
     "songId": "Counselor",
-    "type": "std",
+    "type": "标准",
     "bpm": 135,
     "version": "PiNK",
     "otherName": [
@@ -22668,7 +22668,7 @@
   {
     "internalId": 456,
     "songId": "Glorious Crown",
-    "type": "std",
+    "type": "标准",
     "bpm": 225,
     "version": "PiNK",
     "otherName": [
@@ -22750,7 +22750,7 @@
   {
     "internalId": 457,
     "songId": "言ノ葉遊戯",
-    "type": "std",
+    "type": "标准",
     "bpm": 164,
     "version": "PiNK",
     "otherName": [
@@ -22819,7 +22819,7 @@
   {
     "internalId": 458,
     "songId": "りばーぶ",
-    "type": "std",
+    "type": "标准",
     "bpm": 120,
     "version": "PiNK",
     "otherName": [
@@ -22887,7 +22887,7 @@
   {
     "internalId": 459,
     "songId": "幾四音-Ixion-",
-    "type": "std",
+    "type": "标准",
     "bpm": 210,
     "version": "PiNK",
     "otherName": [
@@ -22962,7 +22962,7 @@
   {
     "internalId": 460,
     "songId": "閃鋼のブリューナク",
-    "type": "std",
+    "type": "标准",
     "bpm": 140,
     "version": "PiNK",
     "otherName": [
@@ -23040,7 +23040,7 @@
   {
     "internalId": 461,
     "songId": "無敵We are one!!",
-    "type": "std",
+    "type": "标准",
     "bpm": 190,
     "version": "PiNK PLUS",
     "otherName": [
@@ -23121,7 +23121,7 @@
   {
     "internalId": 462,
     "songId": "7thSense",
-    "type": "std",
+    "type": "标准",
     "bpm": 150,
     "version": "PiNK",
     "otherName": [
@@ -23205,7 +23205,7 @@
   {
     "internalId": 463,
     "songId": "FEEL the BEATS",
-    "type": "std",
+    "type": "标准",
     "bpm": 166,
     "version": "PiNK",
     "otherName": [
@@ -23300,7 +23300,7 @@
   {
     "internalId": 464,
     "songId": "Revive The Rave",
-    "type": "std",
+    "type": "标准",
     "bpm": 165,
     "version": "PiNK",
     "otherName": [
@@ -23400,7 +23400,7 @@
   {
     "internalId": 465,
     "songId": "スリップフリップ",
-    "type": "std",
+    "type": "标准",
     "bpm": 143,
     "version": "PiNK",
     "otherName": [
@@ -23475,7 +23475,7 @@
   {
     "internalId": 466,
     "songId": "Jimang Shot",
-    "type": "std",
+    "type": "标准",
     "bpm": 164,
     "version": "PiNK",
     "otherName": [
@@ -23545,7 +23545,7 @@
   {
     "internalId": 467,
     "songId": "儚きもの人間",
-    "type": "std",
+    "type": "标准",
     "bpm": 180,
     "version": "PiNK PLUS",
     "otherName": [
@@ -23617,7 +23617,7 @@
   {
     "internalId": 468,
     "songId": "ラブリー☆えんじぇる!!",
-    "type": "std",
+    "type": "标准",
     "bpm": 173,
     "version": "PiNK",
     "otherName": [
@@ -23684,7 +23684,7 @@
   {
     "internalId": 471,
     "songId": "オモイヨシノ",
-    "type": "std",
+    "type": "标准",
     "bpm": 168,
     "version": "PiNK",
     "otherName": [
@@ -23751,7 +23751,7 @@
   {
     "internalId": 472,
     "songId": "アージェントシンメトリー",
-    "type": "std",
+    "type": "标准",
     "bpm": 172,
     "version": "PiNK",
     "otherName": [
@@ -23853,7 +23853,7 @@
   {
     "internalId": 477,
     "songId": "厨病激発ボーイ",
-    "type": "std",
+    "type": "标准",
     "bpm": 190,
     "version": "PiNK",
     "otherName": [
@@ -23925,7 +23925,7 @@
   {
     "internalId": 480,
     "songId": "HIMITSUスパーク",
-    "type": "std",
+    "type": "标准",
     "bpm": 156,
     "version": "PiNK",
     "otherName": [
@@ -23993,7 +23993,7 @@
   {
     "internalId": 482,
     "songId": "Party 4U ”holy nite mix”",
-    "type": "std",
+    "type": "标准",
     "bpm": 159,
     "version": "PiNK",
     "otherName": [
@@ -24069,7 +24069,7 @@
   {
     "internalId": 483,
     "songId": "囲い無き世は一期の月影",
-    "type": "std",
+    "type": "标准",
     "bpm": 172,
     "version": "PiNK",
     "otherName": [
@@ -24135,7 +24135,7 @@
   {
     "internalId": 488,
     "songId": "Lividi",
-    "type": "std",
+    "type": "标准",
     "bpm": 191,
     "version": "MURASAKi",
     "otherName": [
@@ -24216,7 +24216,7 @@
   {
     "internalId": 490,
     "songId": "Infantoon Fantasy",
-    "type": "std",
+    "type": "标准",
     "bpm": 185,
     "version": "PiNK PLUS",
     "otherName": [
@@ -24294,7 +24294,7 @@
   {
     "internalId": 492,
     "songId": "Jumble Rumble",
-    "type": "std",
+    "type": "标准",
     "bpm": 185,
     "version": "PiNK PLUS",
     "otherName": [
@@ -24377,7 +24377,7 @@
   {
     "internalId": 493,
     "songId": "Imitation:Loud Lounge",
-    "type": "std",
+    "type": "标准",
     "bpm": 145,
     "version": "MURASAKi",
     "otherName": [
@@ -24450,7 +24450,7 @@
   {
     "internalId": 494,
     "songId": "CITRUS MONSTER",
-    "type": "std",
+    "type": "标准",
     "bpm": 220,
     "version": "PiNK PLUS",
     "otherName": [
@@ -24530,7 +24530,7 @@
   {
     "internalId": 495,
     "songId": "Hyper Active",
-    "type": "std",
+    "type": "标准",
     "bpm": 160,
     "version": "PiNK PLUS",
     "otherName": [
@@ -24610,7 +24610,7 @@
   {
     "internalId": 496,
     "songId": "AMAZING MIGHTYYYY!!!!",
-    "type": "std",
+    "type": "标准",
     "bpm": 185,
     "version": "PiNK PLUS",
     "otherName": [
@@ -24733,7 +24733,7 @@
   {
     "internalId": 497,
     "songId": "fake!fake!",
-    "type": "std",
+    "type": "标准",
     "bpm": 156,
     "version": "PiNK PLUS",
     "otherName": [
@@ -24806,7 +24806,7 @@
   {
     "internalId": 506,
     "songId": "セハガガガンバッちゃう！！",
-    "type": "std",
+    "type": "标准",
     "bpm": 202,
     "version": "PiNK PLUS",
     "otherName": [
@@ -24877,7 +24877,7 @@
   {
     "internalId": 507,
     "songId": "キミノヨゾラ哨戒班",
-    "type": "std",
+    "type": "标准",
     "bpm": 185,
     "version": "PiNK PLUS",
     "otherName": [
@@ -24951,7 +24951,7 @@
   {
     "internalId": 508,
     "songId": "恋愛裁判",
-    "type": "std",
+    "type": "标准",
     "bpm": 134,
     "version": "PiNK PLUS",
     "otherName": [
@@ -25025,7 +25025,7 @@
   {
     "internalId": 509,
     "songId": "Just Be Friends",
-    "type": "std",
+    "type": "标准",
     "bpm": 128,
     "version": "MURASAKi",
     "otherName": [],
@@ -25089,7 +25089,7 @@
   {
     "internalId": 510,
     "songId": "ヒビカセ",
-    "type": "std",
+    "type": "标准",
     "bpm": 140,
     "version": "MiLK PLUS",
     "otherName": [
@@ -25167,7 +25167,7 @@
   {
     "internalId": 511,
     "songId": "パーフェクト生命",
-    "type": "std",
+    "type": "标准",
     "bpm": 200,
     "version": "PiNK PLUS",
     "otherName": [
@@ -25239,7 +25239,7 @@
   {
     "internalId": 512,
     "songId": "StargazeR",
-    "type": "std",
+    "type": "标准",
     "bpm": 195,
     "version": "MURASAKi",
     "otherName": [
@@ -25308,7 +25308,7 @@
   {
     "internalId": 513,
     "songId": "だんだん早くなる",
-    "type": "std",
+    "type": "标准",
     "bpm": 160,
     "version": "MURASAKi",
     "otherName": [
@@ -25414,7 +25414,7 @@
   {
     "internalId": 514,
     "songId": "ヘルシーエンド",
-    "type": "std",
+    "type": "标准",
     "bpm": 150,
     "version": "MURASAKi PLUS",
     "otherName": [
@@ -25484,7 +25484,7 @@
   {
     "internalId": 515,
     "songId": "クノイチでも恋がしたい",
-    "type": "std",
+    "type": "标准",
     "bpm": 185,
     "version": "PiNK PLUS",
     "otherName": [],
@@ -25548,7 +25548,7 @@
   {
     "internalId": 516,
     "songId": "ココロ",
-    "type": "std",
+    "type": "标准",
     "bpm": 140,
     "version": "MURASAKi",
     "otherName": [
@@ -25614,7 +25614,7 @@
   {
     "internalId": 517,
     "songId": "東京リアルワールド",
-    "type": "std",
+    "type": "标准",
     "bpm": 150,
     "version": "PiNK PLUS",
     "otherName": [
@@ -25687,7 +25687,7 @@
   {
     "internalId": 518,
     "songId": "やめろ！聴くな！",
-    "type": "std",
+    "type": "标准",
     "bpm": 160,
     "version": "PiNK PLUS",
     "otherName": [
@@ -25760,7 +25760,7 @@
   {
     "internalId": 519,
     "songId": "ゆっくりしていってね！！！",
-    "type": "std",
+    "type": "标准",
     "bpm": 221,
     "version": "MURASAKi",
     "otherName": [],
@@ -25824,7 +25824,7 @@
   {
     "internalId": 520,
     "songId": "木彫り鯰と右肩ゾンビ",
-    "type": "std",
+    "type": "标准",
     "bpm": 150,
     "version": "PiNK PLUS",
     "otherName": [
@@ -25909,7 +25909,7 @@
   {
     "internalId": 521,
     "songId": "ECHO",
-    "type": "std",
+    "type": "标准",
     "bpm": 140,
     "version": "PiNK PLUS",
     "otherName": [
@@ -25985,7 +25985,7 @@
   {
     "internalId": 523,
     "songId": "しんでしまうとはなさけない！",
-    "type": "std",
+    "type": "标准",
     "bpm": 174,
     "version": "PiNK PLUS",
     "otherName": [],
@@ -26049,7 +26049,7 @@
   {
     "internalId": 524,
     "songId": "Hand in Hand",
-    "type": "std",
+    "type": "标准",
     "bpm": 128,
     "version": "PiNK PLUS",
     "otherName": [],
@@ -26113,7 +26113,7 @@
   {
     "internalId": 525,
     "songId": "ブリキノダンス",
-    "type": "std",
+    "type": "标准",
     "bpm": 172,
     "version": "MiLK PLUS",
     "otherName": [
@@ -26197,7 +26197,7 @@
   {
     "internalId": 526,
     "songId": "brilliant better",
-    "type": "std",
+    "type": "标准",
     "bpm": 172,
     "version": "PiNK PLUS",
     "otherName": [
@@ -26265,7 +26265,7 @@
   {
     "internalId": 527,
     "songId": "ハート・ビート",
-    "type": "std",
+    "type": "标准",
     "bpm": 212,
     "version": "PiNK PLUS",
     "otherName": [
@@ -26336,7 +26336,7 @@
   {
     "internalId": 528,
     "songId": "Invitation",
-    "type": "std",
+    "type": "标准",
     "bpm": 147,
     "version": "PiNK PLUS",
     "otherName": [
@@ -26403,7 +26403,7 @@
   {
     "internalId": 529,
     "songId": "connecting with you",
-    "type": "std",
+    "type": "标准",
     "bpm": 155,
     "version": "PiNK PLUS",
     "otherName": [
@@ -26471,7 +26471,7 @@
   {
     "internalId": 530,
     "songId": "高気圧ねこロック",
-    "type": "std",
+    "type": "标准",
     "bpm": 260,
     "version": "PiNK PLUS",
     "otherName": [
@@ -26546,7 +26546,7 @@
   {
     "internalId": 531,
     "songId": "Prophesy One",
-    "type": "std",
+    "type": "标准",
     "bpm": 120,
     "version": "PiNK PLUS",
     "otherName": [
@@ -26627,7 +26627,7 @@
   {
     "internalId": 532,
     "songId": "洗脳",
-    "type": "std",
+    "type": "标准",
     "bpm": 125,
     "version": "PiNK PLUS",
     "otherName": [
@@ -26709,7 +26709,7 @@
   {
     "internalId": 533,
     "songId": "Barbed Eye",
-    "type": "std",
+    "type": "标准",
     "bpm": 135,
     "version": "PiNK PLUS",
     "otherName": [
@@ -26776,7 +26776,7 @@
   {
     "internalId": 534,
     "songId": "Nitrous Fury",
-    "type": "std",
+    "type": "标准",
     "bpm": 144,
     "version": "PiNK PLUS",
     "otherName": [
@@ -26855,7 +26855,7 @@
   {
     "internalId": 535,
     "songId": "色は匂へど散りぬるを",
-    "type": "std",
+    "type": "标准",
     "bpm": 138,
     "version": "MURASAKi",
     "otherName": [
@@ -26934,7 +26934,7 @@
   {
     "internalId": 536,
     "songId": "月に叢雲華に風",
-    "type": "std",
+    "type": "标准",
     "bpm": 160,
     "version": "PiNK PLUS",
     "otherName": [
@@ -27012,7 +27012,7 @@
   {
     "internalId": 537,
     "songId": "No Routine",
-    "type": "std",
+    "type": "标准",
     "bpm": 163,
     "version": "PiNK PLUS",
     "otherName": [
@@ -27086,7 +27086,7 @@
   {
     "internalId": 538,
     "songId": "ひれ伏せ愚民どもっ！",
-    "type": "std",
+    "type": "标准",
     "bpm": 180,
     "version": "PiNK PLUS",
     "otherName": [
@@ -27155,7 +27155,7 @@
   {
     "internalId": 539,
     "songId": "エテルニタス・ルドロジー",
-    "type": "std",
+    "type": "标准",
     "bpm": 178,
     "version": "PiNK PLUS",
     "otherName": [
@@ -27228,7 +27228,7 @@
   {
     "internalId": 540,
     "songId": "泡沫、哀のまほろば",
-    "type": "std",
+    "type": "标准",
     "bpm": 155,
     "version": "MiLK",
     "otherName": [
@@ -27300,7 +27300,7 @@
   {
     "internalId": 541,
     "songId": "華鳥風月",
-    "type": "std",
+    "type": "标准",
     "bpm": 123,
     "version": "MURASAKi PLUS",
     "otherName": [
@@ -27374,7 +27374,7 @@
   {
     "internalId": 542,
     "songId": "METATRON",
-    "type": "std",
+    "type": "标准",
     "bpm": 190,
     "version": "PiNK PLUS",
     "otherName": [
@@ -27453,7 +27453,7 @@
   {
     "internalId": 543,
     "songId": "終わりなき物語",
-    "type": "std",
+    "type": "标准",
     "bpm": 150,
     "version": "PiNK PLUS",
     "otherName": [
@@ -27522,7 +27522,7 @@
   {
     "internalId": 546,
     "songId": "フォルテシモBELL",
-    "type": "std",
+    "type": "标准",
     "bpm": 121,
     "version": "MURASAKi",
     "otherName": [
@@ -27590,7 +27590,7 @@
   {
     "internalId": 547,
     "songId": "私の中の幻想的世界観及びその顕現を想起させたある現実での出来事に関する一考察",
-    "type": "std",
+    "type": "标准",
     "bpm": 175,
     "version": "MURASAKi",
     "otherName": [
@@ -27676,7 +27676,7 @@
   {
     "internalId": 548,
     "songId": "DETARAME ROCK&ROLL THEORY",
-    "type": "std",
+    "type": "标准",
     "bpm": 140,
     "version": "MURASAKi",
     "otherName": [
@@ -27746,7 +27746,7 @@
   {
     "internalId": 552,
     "songId": "ゴーストルール",
-    "type": "std",
+    "type": "标准",
     "bpm": 210,
     "version": "MURASAKi",
     "otherName": [
@@ -27822,7 +27822,7 @@
   {
     "internalId": 553,
     "songId": "チュルリラ・チュルリラ・ダッダッダ！",
-    "type": "std",
+    "type": "标准",
     "bpm": 220,
     "version": "MURASAKi",
     "otherName": [
@@ -27906,7 +27906,7 @@
   {
     "internalId": 555,
     "songId": "GOODMEN",
-    "type": "std",
+    "type": "标准",
     "bpm": 175,
     "version": "MURASAKi",
     "otherName": [
@@ -27987,7 +27987,7 @@
   {
     "internalId": 556,
     "songId": "夜明けまであと３秒",
-    "type": "std",
+    "type": "标准",
     "bpm": 182,
     "version": "MURASAKi",
     "otherName": [
@@ -28069,7 +28069,7 @@
   {
     "internalId": 557,
     "songId": "Last Brave ～ Go to zero",
-    "type": "std",
+    "type": "标准",
     "bpm": 132,
     "version": "MURASAKi",
     "otherName": [
@@ -28147,7 +28147,7 @@
   {
     "internalId": 558,
     "songId": "STAIRWAY TO GENERATION",
-    "type": "std",
+    "type": "标准",
     "bpm": 150,
     "version": "MURASAKi",
     "otherName": [
@@ -28217,7 +28217,7 @@
   {
     "internalId": 559,
     "songId": "空威張りビヘイビア",
-    "type": "std",
+    "type": "标准",
     "bpm": 186,
     "version": "MURASAKi",
     "otherName": [
@@ -28289,7 +28289,7 @@
   {
     "internalId": 560,
     "songId": "回レ！雪月花",
-    "type": "std",
+    "type": "标准",
     "bpm": 160,
     "version": "MURASAKi",
     "otherName": [
@@ -28361,7 +28361,7 @@
   {
     "internalId": 561,
     "songId": "いっしそう電☆舞舞神拳！",
-    "type": "std",
+    "type": "标准",
     "bpm": 185,
     "version": "MURASAKi",
     "otherName": [
@@ -28437,7 +28437,7 @@
   {
     "internalId": 564,
     "songId": "ENJOY POLIS",
-    "type": "std",
+    "type": "标准",
     "bpm": 220,
     "version": "FiNALE",
     "otherName": [
@@ -28503,7 +28503,7 @@
   {
     "internalId": 565,
     "songId": "生きてるおばけは生きている",
-    "type": "std",
+    "type": "标准",
     "bpm": 140,
     "version": "MURASAKi",
     "otherName": [
@@ -28572,7 +28572,7 @@
   {
     "internalId": 566,
     "songId": "天火明命",
-    "type": "std",
+    "type": "标准",
     "bpm": 155,
     "version": "MURASAKi",
     "otherName": [
@@ -28653,7 +28653,7 @@
   {
     "internalId": 567,
     "songId": "HERA",
-    "type": "std",
+    "type": "标准",
     "bpm": 185,
     "version": "MURASAKi",
     "otherName": [
@@ -28739,7 +28739,7 @@
   {
     "internalId": 568,
     "songId": "分からない",
-    "type": "std",
+    "type": "标准",
     "bpm": 200,
     "version": "MURASAKi",
     "otherName": [
@@ -28829,7 +28829,7 @@
   {
     "internalId": 571,
     "songId": "Our Wrenally",
-    "type": "std",
+    "type": "标准",
     "bpm": 105,
     "version": "MURASAKi",
     "otherName": [
@@ -28936,7 +28936,7 @@
   {
     "internalId": 572,
     "songId": "Scream out! -maimai SONIC WASHER Edit-",
-    "type": "std",
+    "type": "标准",
     "bpm": 174,
     "version": "MURASAKi",
     "otherName": [
@@ -29016,7 +29016,7 @@
   {
     "internalId": 573,
     "songId": "四月の雨",
-    "type": "std",
+    "type": "标准",
     "bpm": 79,
     "version": "MURASAKi",
     "otherName": [
@@ -29108,7 +29108,7 @@
   {
     "internalId": 574,
     "songId": "Selector",
-    "type": "std",
+    "type": "标准",
     "bpm": 148,
     "version": "MURASAKi",
     "otherName": [
@@ -29186,7 +29186,7 @@
   {
     "internalId": 578,
     "songId": "ドキドキDREAM!!!",
-    "type": "std",
+    "type": "标准",
     "bpm": 210,
     "version": "MURASAKi",
     "otherName": [
@@ -29254,7 +29254,7 @@
   {
     "internalId": 579,
     "songId": "ポップミュージックは僕のもの",
-    "type": "std",
+    "type": "标准",
     "bpm": 135,
     "version": "MURASAKi",
     "otherName": [
@@ -29326,7 +29326,7 @@
   {
     "internalId": 580,
     "songId": "吉原ラメント",
-    "type": "std",
+    "type": "标准",
     "bpm": 191,
     "version": "MURASAKi",
     "otherName": [
@@ -29404,7 +29404,7 @@
   {
     "internalId": 581,
     "songId": "ねぇ、壊れタ人形ハ何処へ棄テらレるノ？",
-    "type": "std",
+    "type": "标准",
     "bpm": 188,
     "version": "MURASAKi",
     "otherName": [
@@ -29486,7 +29486,7 @@
   {
     "internalId": 582,
     "songId": "幽闇に目醒めしは",
-    "type": "std",
+    "type": "标准",
     "bpm": 120,
     "version": "MURASAKi",
     "otherName": [
@@ -29563,7 +29563,7 @@
   {
     "internalId": 583,
     "songId": "Starlight Vision",
-    "type": "std",
+    "type": "标准",
     "bpm": 180,
     "version": "MURASAKi",
     "otherName": [
@@ -29633,7 +29633,7 @@
   {
     "internalId": 584,
     "songId": "Club Ibuki in Break All",
-    "type": "std",
+    "type": "标准",
     "bpm": 175,
     "version": "MURASAKi",
     "otherName": [
@@ -29713,7 +29713,7 @@
   {
     "internalId": 585,
     "songId": "Phantasm Brigade",
-    "type": "std",
+    "type": "标准",
     "bpm": 168,
     "version": "MURASAKi",
     "otherName": [
@@ -29784,7 +29784,7 @@
   {
     "internalId": 586,
     "songId": "永遠のメロディ",
-    "type": "std",
+    "type": "标准",
     "bpm": 155,
     "version": "MiLK",
     "otherName": [
@@ -29855,7 +29855,7 @@
   {
     "internalId": 587,
     "songId": "白ゆき",
-    "type": "std",
+    "type": "标准",
     "bpm": 210,
     "version": "MURASAKi PLUS",
     "otherName": [
@@ -29930,7 +29930,7 @@
   {
     "internalId": 589,
     "songId": "Panopticon",
-    "type": "std",
+    "type": "标准",
     "bpm": 110,
     "version": "MURASAKi",
     "otherName": [
@@ -30042,7 +30042,7 @@
   {
     "internalId": 592,
     "songId": "Sakura Fubuki",
-    "type": "std",
+    "type": "标准",
     "bpm": 175,
     "version": "MURASAKi",
     "otherName": [
@@ -30119,7 +30119,7 @@
   {
     "internalId": 593,
     "songId": "conflict",
-    "type": "std",
+    "type": "标准",
     "bpm": 160,
     "version": "MURASAKi",
     "otherName": [
@@ -30199,7 +30199,7 @@
   {
     "internalId": 598,
     "songId": "すーぱーぬこになりたい",
-    "type": "std",
+    "type": "标准",
     "bpm": 194,
     "version": "MURASAKi",
     "otherName": [
@@ -30276,7 +30276,7 @@
   {
     "internalId": 599,
     "songId": "踊れオーケストラ",
-    "type": "std",
+    "type": "标准",
     "bpm": 180,
     "version": "MURASAKi",
     "otherName": [
@@ -30343,7 +30343,7 @@
   {
     "internalId": 601,
     "songId": "きらっせ☆ウッド村ファーム",
-    "type": "std",
+    "type": "标准",
     "bpm": 190,
     "version": "MURASAKi",
     "otherName": [
@@ -30412,7 +30412,7 @@
   {
     "internalId": 602,
     "songId": "taboo tears you up",
-    "type": "std",
+    "type": "标准",
     "bpm": 180,
     "version": "MURASAKi",
     "otherName": [
@@ -30490,7 +30490,7 @@
   {
     "internalId": 603,
     "songId": "その群青が愛しかったようだった",
-    "type": "std",
+    "type": "标准",
     "bpm": 220,
     "version": "MURASAKi",
     "otherName": [
@@ -30560,7 +30560,7 @@
   {
     "internalId": 606,
     "songId": "The wheel to the right",
-    "type": "std",
+    "type": "标准",
     "bpm": 200,
     "version": "MURASAKi",
     "otherName": [
@@ -30649,7 +30649,7 @@
   {
     "internalId": 609,
     "songId": "SAKURAスキップ",
-    "type": "std",
+    "type": "标准",
     "bpm": 165,
     "version": "MURASAKi PLUS",
     "otherName": [],
@@ -30713,7 +30713,7 @@
   {
     "internalId": 610,
     "songId": "リンカーネイション",
-    "type": "std",
+    "type": "标准",
     "bpm": 185,
     "version": "MURASAKi PLUS",
     "otherName": [
@@ -30789,7 +30789,7 @@
   {
     "internalId": 611,
     "songId": "宿題が終わらないっ！",
-    "type": "std",
+    "type": "标准",
     "bpm": 180,
     "version": "MURASAKi PLUS",
     "otherName": [
@@ -30861,7 +30861,7 @@
   {
     "internalId": 612,
     "songId": "GO BACK 2 YOUR RAVE",
-    "type": "std",
+    "type": "标准",
     "bpm": 170,
     "version": "MURASAKi PLUS",
     "otherName": [
@@ -30937,7 +30937,7 @@
   {
     "internalId": 613,
     "songId": "天国と地獄 -言ノ葉リンネ-",
-    "type": "std",
+    "type": "标准",
     "bpm": 138,
     "version": "MURASAKi PLUS",
     "otherName": [
@@ -31005,7 +31005,7 @@
   {
     "internalId": 614,
     "songId": "夢花火",
-    "type": "std",
+    "type": "标准",
     "bpm": 186,
     "version": "MURASAKi PLUS",
     "otherName": [
@@ -31088,7 +31088,7 @@
   {
     "internalId": 615,
     "songId": "Paradisus-Paradoxum",
-    "type": "std",
+    "type": "标准",
     "bpm": 201,
     "version": "MURASAKi PLUS",
     "otherName": [],
@@ -31152,7 +31152,7 @@
   {
     "internalId": 617,
     "songId": "オトヒメモリー☆ウタゲーション",
-    "type": "std",
+    "type": "标准",
     "bpm": 140,
     "version": "MURASAKi PLUS",
     "otherName": [
@@ -31219,7 +31219,7 @@
   {
     "internalId": 618,
     "songId": "ラブチーノ",
-    "type": "std",
+    "type": "标准",
     "bpm": 126,
     "version": "MURASAKi PLUS",
     "otherName": [
@@ -31286,7 +31286,7 @@
   {
     "internalId": 620,
     "songId": "東京レトロ",
-    "type": "std",
+    "type": "标准",
     "bpm": 126,
     "version": "MURASAKi PLUS",
     "otherName": [],
@@ -31350,7 +31350,7 @@
   {
     "internalId": 621,
     "songId": "ARROW",
-    "type": "std",
+    "type": "标准",
     "bpm": 131,
     "version": "MURASAKi PLUS",
     "otherName": [
@@ -31426,7 +31426,7 @@
   {
     "internalId": 622,
     "songId": "バッド・ダンス・ホール",
-    "type": "std",
+    "type": "标准",
     "bpm": 152,
     "version": "MURASAKi PLUS",
     "otherName": [
@@ -31496,7 +31496,7 @@
   {
     "internalId": 624,
     "songId": "KISS CANDY FLAVOR",
-    "type": "std",
+    "type": "标准",
     "bpm": 146,
     "version": "MURASAKi PLUS",
     "otherName": [
@@ -31569,7 +31569,7 @@
   {
     "internalId": 625,
     "songId": "Maxi",
-    "type": "std",
+    "type": "标准",
     "bpm": 180,
     "version": "MURASAKi PLUS",
     "otherName": [
@@ -31650,7 +31650,7 @@
   {
     "internalId": 626,
     "songId": "相思創愛",
-    "type": "std",
+    "type": "标准",
     "bpm": 195,
     "version": "MURASAKi PLUS",
     "otherName": [
@@ -31729,7 +31729,7 @@
   {
     "internalId": 627,
     "songId": "心象蜃気楼",
-    "type": "std",
+    "type": "标准",
     "bpm": 190,
     "version": "MURASAKi PLUS",
     "otherName": [
@@ -31804,7 +31804,7 @@
   {
     "internalId": 628,
     "songId": "光線チューニング",
-    "type": "std",
+    "type": "标准",
     "bpm": 190,
     "version": "MURASAKi PLUS",
     "otherName": [
@@ -31883,7 +31883,7 @@
   {
     "internalId": 629,
     "songId": "Limit Break",
-    "type": "std",
+    "type": "标准",
     "bpm": 153,
     "version": "MURASAKi PLUS",
     "otherName": [
@@ -31980,7 +31980,7 @@
   {
     "internalId": 630,
     "songId": "曖昧mind",
-    "type": "std",
+    "type": "标准",
     "bpm": 135,
     "version": "MURASAKi PLUS",
     "otherName": [
@@ -32049,7 +32049,7 @@
   {
     "internalId": 631,
     "songId": "KING is BACK!!",
-    "type": "std",
+    "type": "标准",
     "bpm": 176,
     "version": "MURASAKi PLUS",
     "otherName": [
@@ -32134,7 +32134,7 @@
   {
     "internalId": 632,
     "songId": "Ultranova",
-    "type": "std",
+    "type": "标准",
     "bpm": 156,
     "version": "MURASAKi PLUS",
     "otherName": [
@@ -32212,7 +32212,7 @@
   {
     "internalId": 634,
     "songId": "GET!! 夢&DREAM",
-    "type": "std",
+    "type": "标准",
     "bpm": 150,
     "version": "MURASAKi PLUS",
     "otherName": [
@@ -32285,7 +32285,7 @@
   {
     "internalId": 636,
     "songId": "日本の米は世界一",
-    "type": "std",
+    "type": "标准",
     "bpm": 138,
     "version": "MURASAKi PLUS",
     "otherName": [
@@ -32362,7 +32362,7 @@
   {
     "internalId": 637,
     "songId": "ないせんのうた",
-    "type": "std",
+    "type": "标准",
     "bpm": 184,
     "version": "MURASAKi PLUS",
     "otherName": [
@@ -32438,7 +32438,7 @@
   {
     "internalId": 639,
     "songId": "Starlight Dance Floor",
-    "type": "std",
+    "type": "标准",
     "bpm": 128,
     "version": "MURASAKi PLUS",
     "otherName": [
@@ -32510,7 +32510,7 @@
   {
     "internalId": 640,
     "songId": "妖精村の月誕祭 ～Lunate Elf",
-    "type": "std",
+    "type": "标准",
     "bpm": 132,
     "version": "MURASAKi PLUS",
     "otherName": [
@@ -32580,7 +32580,7 @@
   {
     "internalId": 641,
     "songId": "Calamity Fortune",
-    "type": "std",
+    "type": "标准",
     "bpm": 200,
     "version": "MURASAKi PLUS",
     "otherName": [
@@ -32669,7 +32669,7 @@
   {
     "internalId": 642,
     "songId": "Justified",
-    "type": "std",
+    "type": "标准",
     "bpm": 185,
     "version": "MiLK",
     "otherName": [
@@ -32743,7 +32743,7 @@
   {
     "internalId": 643,
     "songId": "Excalibur ～Revived resolution～",
-    "type": "std",
+    "type": "标准",
     "bpm": 200,
     "version": "MiLK",
     "otherName": [
@@ -32828,7 +32828,7 @@
   {
     "internalId": 645,
     "songId": "ホシトハナ",
-    "type": "std",
+    "type": "标准",
     "bpm": 158,
     "version": "MURASAKi PLUS",
     "otherName": [
@@ -32894,7 +32894,7 @@
   {
     "internalId": 647,
     "songId": "エイリアンエイリアン",
-    "type": "std",
+    "type": "标准",
     "bpm": 152,
     "version": "MURASAKi PLUS",
     "otherName": [
@@ -32972,7 +32972,7 @@
   {
     "internalId": 648,
     "songId": "My Dearest Song",
-    "type": "std",
+    "type": "标准",
     "bpm": 145,
     "version": "MURASAKi PLUS",
     "otherName": [
@@ -33045,7 +33045,7 @@
   {
     "internalId": 649,
     "songId": "猛進ソリストライフ！",
-    "type": "std",
+    "type": "标准",
     "bpm": 189,
     "version": "MURASAKi PLUS",
     "otherName": [
@@ -33120,7 +33120,7 @@
   {
     "internalId": 650,
     "songId": "Let's Go Away",
-    "type": "std",
+    "type": "标准",
     "bpm": 240,
     "version": "MiLK PLUS",
     "otherName": [
@@ -33188,7 +33188,7 @@
   {
     "internalId": 653,
     "songId": "Now Loading!!!!",
-    "type": "std",
+    "type": "标准",
     "bpm": 193,
     "version": "MURASAKi PLUS",
     "otherName": [],
@@ -33252,7 +33252,7 @@
   {
     "internalId": 654,
     "songId": "真・ハンサム体操でズンドコホイ",
-    "type": "std",
+    "type": "标准",
     "bpm": 140,
     "version": "MURASAKi PLUS",
     "otherName": [
@@ -33329,7 +33329,7 @@
   {
     "internalId": 655,
     "songId": "フラジール",
-    "type": "std",
+    "type": "标准",
     "bpm": 127,
     "version": "MURASAKi PLUS",
     "otherName": [
@@ -33401,7 +33401,7 @@
   {
     "internalId": 657,
     "songId": "オーディエンスを沸かす程度の能力 feat.タイツォン",
-    "type": "std",
+    "type": "标准",
     "bpm": 216,
     "version": "MURASAKi PLUS",
     "otherName": [
@@ -33478,7 +33478,7 @@
   {
     "internalId": 658,
     "songId": "人里に下ったアタイがいつの間にか社畜になっていた件",
-    "type": "std",
+    "type": "标准",
     "bpm": 180,
     "version": "MURASAKi PLUS",
     "otherName": [
@@ -33563,7 +33563,7 @@
   {
     "internalId": 659,
     "songId": "ギリギリ最強あいまいみー！",
-    "type": "std",
+    "type": "标准",
     "bpm": 185,
     "version": "MiLK",
     "otherName": [],
@@ -33627,7 +33627,7 @@
   {
     "internalId": 661,
     "songId": "CALL HEAVEN!!",
-    "type": "std",
+    "type": "标准",
     "bpm": 123,
     "version": "MURASAKi PLUS",
     "otherName": [],
@@ -33691,7 +33691,7 @@
   {
     "internalId": 662,
     "songId": "Sunshine world tour",
-    "type": "std",
+    "type": "标准",
     "bpm": 140,
     "version": "MURASAKi PLUS",
     "otherName": [],
@@ -33755,7 +33755,7 @@
   {
     "internalId": 663,
     "songId": "ちがう!!!",
-    "type": "std",
+    "type": "标准",
     "bpm": 181,
     "version": "MURASAKi PLUS",
     "otherName": [
@@ -33821,7 +33821,7 @@
   {
     "internalId": 664,
     "songId": "Moon of Noon",
-    "type": "std",
+    "type": "标准",
     "bpm": 200,
     "version": "MURASAKi PLUS",
     "otherName": [
@@ -33910,7 +33910,7 @@
   {
     "internalId": 665,
     "songId": "チルノのパーフェクトさんすう教室　⑨周年バージョン",
-    "type": "std",
+    "type": "标准",
     "bpm": 175,
     "version": "MURASAKi PLUS",
     "otherName": [
@@ -33995,7 +33995,7 @@
   {
     "internalId": 666,
     "songId": "デスパレイト",
-    "type": "std",
+    "type": "标准",
     "bpm": 145,
     "version": "MURASAKi PLUS",
     "otherName": [
@@ -34068,7 +34068,7 @@
   {
     "internalId": 668,
     "songId": "ようこそジャパリパークへ",
-    "type": "std",
+    "type": "标准",
     "bpm": 170,
     "version": "MiLK",
     "otherName": [
@@ -34149,7 +34149,7 @@
   {
     "internalId": 669,
     "songId": "あ・え・い・う・え・お・あお!!",
-    "type": "std",
+    "type": "标准",
     "bpm": 145,
     "version": "MiLK",
     "otherName": [],
@@ -34213,7 +34213,7 @@
   {
     "internalId": 670,
     "songId": "ドーナツホール",
-    "type": "std",
+    "type": "标准",
     "bpm": 252,
     "version": "MiLK",
     "otherName": [
@@ -34290,7 +34290,7 @@
   {
     "internalId": 672,
     "songId": "MilK",
-    "type": "std",
+    "type": "标准",
     "bpm": 150,
     "version": "MiLK",
     "otherName": [
@@ -34363,7 +34363,7 @@
   {
     "internalId": 673,
     "songId": "咲キ誇レ常世ノ華",
-    "type": "std",
+    "type": "标准",
     "bpm": 170,
     "version": "MiLK",
     "otherName": [
@@ -34439,7 +34439,7 @@
   {
     "internalId": 674,
     "songId": "Magical Flavor",
-    "type": "std",
+    "type": "标准",
     "bpm": 98,
     "version": "MiLK",
     "otherName": [
@@ -34511,7 +34511,7 @@
   {
     "internalId": 675,
     "songId": "白い雪のプリンセスは",
-    "type": "std",
+    "type": "标准",
     "bpm": 200,
     "version": "MiLK",
     "otherName": [
@@ -34577,7 +34577,7 @@
   {
     "internalId": 676,
     "songId": "好き！雪！本気マジック",
-    "type": "std",
+    "type": "标准",
     "bpm": 167,
     "version": "MiLK",
     "otherName": [
@@ -34646,7 +34646,7 @@
   {
     "internalId": 677,
     "songId": "スターナイトスノウ",
-    "type": "std",
+    "type": "标准",
     "bpm": 180,
     "version": "MiLK",
     "otherName": [
@@ -34712,7 +34712,7 @@
   {
     "internalId": 678,
     "songId": "This game",
-    "type": "std",
+    "type": "标准",
     "bpm": 147,
     "version": "MiLK",
     "otherName": [],
@@ -34776,7 +34776,7 @@
   {
     "internalId": 679,
     "songId": "Los! Los! Los!",
-    "type": "std",
+    "type": "标准",
     "bpm": 240,
     "version": "MiLK",
     "otherName": [],
@@ -34840,7 +34840,7 @@
   {
     "internalId": 680,
     "songId": "Candy Tall Woman",
-    "type": "std",
+    "type": "标准",
     "bpm": 190,
     "version": "MiLK",
     "otherName": [
@@ -34915,7 +34915,7 @@
   {
     "internalId": 681,
     "songId": "Signature",
-    "type": "std",
+    "type": "标准",
     "bpm": 128,
     "version": "MiLK",
     "otherName": [
@@ -34986,7 +34986,7 @@
   {
     "internalId": 682,
     "songId": "人生リセットボタン",
-    "type": "std",
+    "type": "标准",
     "bpm": 200,
     "version": "MiLK",
     "otherName": [
@@ -35073,7 +35073,7 @@
   {
     "internalId": 683,
     "songId": "しねばいいのに",
-    "type": "std",
+    "type": "标准",
     "bpm": 138,
     "version": "MiLK",
     "otherName": [
@@ -35155,7 +35155,7 @@
   {
     "internalId": 684,
     "songId": "もうみんなしねばいいのに",
-    "type": "std",
+    "type": "标准",
     "bpm": 180,
     "version": "MiLK",
     "otherName": [
@@ -35246,7 +35246,7 @@
   {
     "internalId": 687,
     "songId": "共感覚おばけ",
-    "type": "std",
+    "type": "标准",
     "bpm": 184,
     "version": "MiLK",
     "otherName": [
@@ -35315,7 +35315,7 @@
   {
     "internalId": 688,
     "songId": "麒麟",
-    "type": "std",
+    "type": "标准",
     "bpm": 220,
     "version": "MiLK",
     "otherName": [
@@ -35396,7 +35396,7 @@
   {
     "internalId": 689,
     "songId": "Credits",
-    "type": "std",
+    "type": "标准",
     "bpm": 179,
     "version": "MiLK",
     "otherName": [
@@ -35489,7 +35489,7 @@
   {
     "internalId": 690,
     "songId": "ダンスロボットダンス",
-    "type": "std",
+    "type": "标准",
     "bpm": 190,
     "version": "MiLK",
     "otherName": [
@@ -35573,7 +35573,7 @@
   {
     "internalId": 691,
     "songId": "アルカリレットウセイ",
-    "type": "std",
+    "type": "标准",
     "bpm": 158,
     "version": "MiLK",
     "otherName": [
@@ -35646,7 +35646,7 @@
   {
     "internalId": 692,
     "songId": "ドクハク",
-    "type": "std",
+    "type": "标准",
     "bpm": 208,
     "version": "MiLK",
     "otherName": [
@@ -35722,7 +35722,7 @@
   {
     "internalId": 693,
     "songId": "キレキャリオン",
-    "type": "std",
+    "type": "标准",
     "bpm": 170,
     "version": "MiLK",
     "otherName": [
@@ -35796,7 +35796,7 @@
   {
     "internalId": 694,
     "songId": "猫祭り",
-    "type": "std",
+    "type": "标准",
     "bpm": 160,
     "version": "MiLK",
     "otherName": [
@@ -35877,7 +35877,7 @@
   {
     "internalId": 695,
     "songId": "TRUST",
-    "type": "std",
+    "type": "标准",
     "bpm": 190,
     "version": "MiLK",
     "otherName": [
@@ -35952,7 +35952,7 @@
   {
     "internalId": 696,
     "songId": "Still",
-    "type": "std",
+    "type": "标准",
     "bpm": 176,
     "version": "MiLK",
     "otherName": [
@@ -36019,7 +36019,7 @@
   {
     "internalId": 697,
     "songId": "ガヴリールドロップキック",
-    "type": "std",
+    "type": "标准",
     "bpm": 168,
     "version": "MiLK",
     "otherName": [],
@@ -36083,7 +36083,7 @@
   {
     "internalId": 698,
     "songId": "fantastic dreamer",
-    "type": "std",
+    "type": "标准",
     "bpm": 185,
     "version": "MiLK",
     "otherName": [
@@ -36149,7 +36149,7 @@
   {
     "internalId": 699,
     "songId": "天狗の落とし文 feat. ｙｔｒ",
-    "type": "std",
+    "type": "标准",
     "bpm": 160,
     "version": "MiLK",
     "otherName": [
@@ -36223,7 +36223,7 @@
   {
     "internalId": 700,
     "songId": "疾走あんさんぶる",
-    "type": "std",
+    "type": "标准",
     "bpm": 195,
     "version": "MiLK",
     "otherName": [
@@ -36297,7 +36297,7 @@
   {
     "internalId": 701,
     "songId": "Doll Judgment",
-    "type": "std",
+    "type": "标准",
     "bpm": 230,
     "version": "MiLK",
     "otherName": [
@@ -36379,7 +36379,7 @@
   {
     "internalId": 702,
     "songId": "WARNING×WARNING×WARNING",
-    "type": "std",
+    "type": "标准",
     "bpm": 172,
     "version": "MiLK",
     "otherName": [
@@ -36452,7 +36452,7 @@
   {
     "internalId": 704,
     "songId": "SPILL OVER COLORS",
-    "type": "std",
+    "type": "标准",
     "bpm": 142,
     "version": "MiLK",
     "otherName": [
@@ -36548,7 +36548,7 @@
   {
     "internalId": 705,
     "songId": "Mare Maris",
-    "type": "std",
+    "type": "标准",
     "bpm": 150,
     "version": "MiLK",
     "otherName": [
@@ -36640,7 +36640,7 @@
   {
     "internalId": 706,
     "songId": "シャルル",
-    "type": "std",
+    "type": "标准",
     "bpm": 145,
     "version": "MiLK",
     "otherName": [
@@ -36714,7 +36714,7 @@
   {
     "internalId": 707,
     "songId": "フリィダム ロリィタ",
-    "type": "std",
+    "type": "标准",
     "bpm": 150,
     "version": "MiLK",
     "otherName": [
@@ -36787,7 +36787,7 @@
   {
     "internalId": 708,
     "songId": "バレリーコ",
-    "type": "std",
+    "type": "标准",
     "bpm": 150,
     "version": "MiLK",
     "otherName": [
@@ -36857,7 +36857,7 @@
   {
     "internalId": 709,
     "songId": "アウターサイエンス",
-    "type": "std",
+    "type": "标准",
     "bpm": 195,
     "version": "MiLK",
     "otherName": [
@@ -36930,7 +36930,7 @@
   {
     "internalId": 710,
     "songId": "REVIVER オルタンシア・サーガ -蒼の騎士団- オリジナルVer.",
-    "type": "std",
+    "type": "标准",
     "bpm": 200,
     "version": "MiLK",
     "otherName": [
@@ -37005,7 +37005,7 @@
   {
     "internalId": 711,
     "songId": "拝啓ドッペルゲンガー",
-    "type": "std",
+    "type": "标准",
     "bpm": 181,
     "version": "MiLK",
     "otherName": [
@@ -37087,7 +37087,7 @@
   {
     "internalId": 712,
     "songId": "ミラクル・ショッピング",
-    "type": "std",
+    "type": "标准",
     "bpm": 167,
     "version": "MiLK",
     "otherName": [
@@ -37161,7 +37161,7 @@
   {
     "internalId": 713,
     "songId": "Kinda Way",
-    "type": "std",
+    "type": "标准",
     "bpm": 127,
     "version": "MiLK",
     "otherName": [
@@ -37232,7 +37232,7 @@
   {
     "internalId": 717,
     "songId": "ラブって♡ジュエリー♪えんじぇる☆ブレイク！！",
-    "type": "std",
+    "type": "标准",
     "bpm": 238,
     "version": "FiNALE",
     "otherName": [
@@ -37301,7 +37301,7 @@
   {
     "internalId": 718,
     "songId": "ヤバい○○",
-    "type": "std",
+    "type": "标准",
     "bpm": 133,
     "version": "MiLK",
     "otherName": [],
@@ -37365,7 +37365,7 @@
   {
     "internalId": 719,
     "songId": "エンドマークに希望と涙を添えて",
-    "type": "std",
+    "type": "标准",
     "bpm": 257,
     "version": "MiLK",
     "otherName": [
@@ -37451,7 +37451,7 @@
   {
     "internalId": 720,
     "songId": "ナンセンス文学",
-    "type": "std",
+    "type": "标准",
     "bpm": 154,
     "version": "MiLK",
     "otherName": [
@@ -37530,7 +37530,7 @@
   {
     "internalId": 721,
     "songId": "Bang Babang Bang!!!",
-    "type": "std",
+    "type": "标准",
     "bpm": 200,
     "version": "MiLK",
     "otherName": [
@@ -37605,7 +37605,7 @@
   {
     "internalId": 722,
     "songId": "Tic Tac DREAMIN’",
-    "type": "std",
+    "type": "标准",
     "bpm": 125,
     "version": "MiLK",
     "otherName": [
@@ -37675,7 +37675,7 @@
   {
     "internalId": 723,
     "songId": "SPICY SWINGY STYLE",
-    "type": "std",
+    "type": "标准",
     "bpm": 242,
     "version": "MiLK",
     "otherName": [
@@ -37746,7 +37746,7 @@
   {
     "internalId": 725,
     "songId": "砂の惑星 feat. HATSUNE MIKU",
-    "type": "std",
+    "type": "标准",
     "bpm": 95,
     "version": "MiLK",
     "otherName": [
@@ -37835,7 +37835,7 @@
   {
     "internalId": 726,
     "songId": "アンノウン・マザーグース",
-    "type": "std",
+    "type": "标准",
     "bpm": 222,
     "version": "MiLK",
     "otherName": [
@@ -37911,7 +37911,7 @@
   {
     "internalId": 731,
     "songId": "妄想感傷代償連盟",
-    "type": "std",
+    "type": "标准",
     "bpm": 110,
     "version": "MiLK PLUS",
     "otherName": [
@@ -38009,7 +38009,7 @@
   {
     "internalId": 732,
     "songId": "LOVE EAST",
-    "type": "std",
+    "type": "标准",
     "bpm": 168,
     "version": "MiLK PLUS",
     "otherName": [
@@ -38079,7 +38079,7 @@
   {
     "internalId": 733,
     "songId": "Fist Bump",
-    "type": "std",
+    "type": "标准",
     "bpm": 217,
     "version": "MiLK PLUS",
     "otherName": [
@@ -38145,7 +38145,7 @@
   {
     "internalId": 734,
     "songId": "ENERGY SYNERGY MATRIX",
-    "type": "std",
+    "type": "标准",
     "bpm": 160,
     "version": "MiLK PLUS",
     "otherName": [
@@ -38237,7 +38237,7 @@
   {
     "internalId": 735,
     "songId": "Session High⤴",
-    "type": "std",
+    "type": "标准",
     "bpm": 200,
     "version": "MiLK PLUS",
     "otherName": [
@@ -38306,7 +38306,7 @@
   {
     "internalId": 736,
     "songId": "World Vanquisher",
-    "type": "std",
+    "type": "标准",
     "bpm": 170,
     "version": "MiLK PLUS",
     "otherName": [
@@ -38396,7 +38396,7 @@
   {
     "internalId": 737,
     "songId": "FestivaLight",
-    "type": "std",
+    "type": "标准",
     "bpm": 125,
     "version": "MiLK PLUS",
     "otherName": [
@@ -38474,7 +38474,7 @@
   {
     "internalId": 738,
     "songId": "Brain Power",
-    "type": "std",
+    "type": "标准",
     "bpm": 170,
     "version": "MiLK PLUS",
     "otherName": [
@@ -38550,7 +38550,7 @@
   {
     "internalId": 739,
     "songId": "進め！イッスン軍団 -Rebellion of the Dwarfs-",
-    "type": "std",
+    "type": "标准",
     "bpm": 172,
     "version": "MiLK PLUS",
     "otherName": [
@@ -38630,7 +38630,7 @@
   {
     "internalId": 740,
     "songId": "ULTRA B+K",
-    "type": "std",
+    "type": "标准",
     "bpm": 175,
     "version": "MiLK PLUS",
     "otherName": [
@@ -38708,7 +38708,7 @@
   {
     "internalId": 741,
     "songId": "インビジブル",
-    "type": "std",
+    "type": "标准",
     "bpm": 192,
     "version": "MiLK PLUS",
     "otherName": [
@@ -38800,7 +38800,7 @@
   {
     "internalId": 742,
     "songId": "彗星ハネムーン",
-    "type": "std",
+    "type": "标准",
     "bpm": 145,
     "version": "MiLK PLUS",
     "otherName": [
@@ -38868,7 +38868,7 @@
   {
     "internalId": 743,
     "songId": "アンチクロックワイズ",
-    "type": "std",
+    "type": "标准",
     "bpm": 186,
     "version": "MiLK PLUS",
     "otherName": [],
@@ -38946,7 +38946,7 @@
   {
     "internalId": 745,
     "songId": "keep hopping",
-    "type": "std",
+    "type": "标准",
     "bpm": 155,
     "version": "MiLK PLUS",
     "otherName": [
@@ -39021,7 +39021,7 @@
   {
     "internalId": 746,
     "songId": "larva",
-    "type": "std",
+    "type": "标准",
     "bpm": 202,
     "version": "MiLK PLUS",
     "otherName": [
@@ -39109,7 +39109,7 @@
   {
     "internalId": 747,
     "songId": "えれくとりっく・えんじぇぅ",
-    "type": "std",
+    "type": "标准",
     "bpm": 150,
     "version": "MiLK PLUS",
     "otherName": [],
@@ -39173,7 +39173,7 @@
   {
     "internalId": 748,
     "songId": "ミラクルペイント",
-    "type": "std",
+    "type": "标准",
     "bpm": 215,
     "version": "MiLK PLUS",
     "otherName": [
@@ -39239,7 +39239,7 @@
   {
     "internalId": 750,
     "songId": "初音ミクの激唱",
-    "type": "std",
+    "type": "标准",
     "bpm": 200,
     "version": "MiLK PLUS",
     "otherName": [
@@ -39330,7 +39330,7 @@
   {
     "internalId": 751,
     "songId": "ガチャガチャきゅ～と・ふぃぎゅ@メイト",
-    "type": "std",
+    "type": "标准",
     "bpm": 178,
     "version": "FiNALE",
     "otherName": [],
@@ -39394,7 +39394,7 @@
   {
     "internalId": 752,
     "songId": "true my heart -Lovable mix-",
-    "type": "std",
+    "type": "标准",
     "bpm": 135,
     "version": "FiNALE",
     "otherName": [
@@ -39462,7 +39462,7 @@
   {
     "internalId": 753,
     "songId": "Rodeo Machine",
-    "type": "std",
+    "type": "标准",
     "bpm": 115,
     "version": "MiLK PLUS",
     "otherName": [
@@ -39539,7 +39539,7 @@
   {
     "internalId": 756,
     "songId": "CYBER Sparks",
-    "type": "std",
+    "type": "标准",
     "bpm": 192,
     "version": "MiLK PLUS",
     "otherName": [
@@ -39634,7 +39634,7 @@
   {
     "internalId": 757,
     "songId": "Xevel",
-    "type": "std",
+    "type": "标准",
     "bpm": 176,
     "version": "MiLK PLUS",
     "otherName": [
@@ -39722,7 +39722,7 @@
   {
     "internalId": 758,
     "songId": "INFINITE WORLD",
-    "type": "std",
+    "type": "标准",
     "bpm": 167,
     "version": "MiLK PLUS",
     "otherName": [
@@ -39791,7 +39791,7 @@
   {
     "internalId": 759,
     "songId": "サドマミホリック",
-    "type": "std",
+    "type": "标准",
     "bpm": 200,
     "version": "MiLK PLUS",
     "otherName": [
@@ -39879,7 +39879,7 @@
   {
     "internalId": 760,
     "songId": "Ragnarok",
-    "type": "std",
+    "type": "标准",
     "bpm": 184,
     "version": "MiLK PLUS",
     "otherName": [
@@ -39952,7 +39952,7 @@
   {
     "internalId": 761,
     "songId": "このふざけた素晴らしき世界は、僕の為にある",
-    "type": "std",
+    "type": "标准",
     "bpm": 152,
     "version": "MiLK PLUS",
     "otherName": [
@@ -40018,7 +40018,7 @@
   {
     "internalId": 762,
     "songId": "このピアノでお前を8759632145回ぶん殴る",
-    "type": "std",
+    "type": "标准",
     "bpm": 200,
     "version": "MiLK PLUS",
     "otherName": [
@@ -40101,7 +40101,7 @@
   {
     "internalId": 763,
     "songId": "はやくそれになりたい！",
-    "type": "std",
+    "type": "标准",
     "bpm": 185,
     "version": "MiLK PLUS",
     "otherName": [
@@ -40191,7 +40191,7 @@
   {
     "internalId": 764,
     "songId": "フィクサー",
-    "type": "std",
+    "type": "标准",
     "bpm": 135,
     "version": "MiLK PLUS",
     "otherName": [
@@ -40266,7 +40266,7 @@
   {
     "internalId": 765,
     "songId": "みんなの",
-    "type": "std",
+    "type": "标准",
     "bpm": 190,
     "version": "MiLK PLUS",
     "otherName": [
@@ -40334,7 +40334,7 @@
   {
     "internalId": 766,
     "songId": "アマノジャクリバース feat. ｙｔｒ",
-    "type": "std",
+    "type": "标准",
     "bpm": 160,
     "version": "MiLK PLUS",
     "otherName": [
@@ -40412,7 +40412,7 @@
   {
     "internalId": 767,
     "songId": "進捗どうですか？",
-    "type": "std",
+    "type": "标准",
     "bpm": 199,
     "version": "MiLK PLUS",
     "otherName": [
@@ -40488,7 +40488,7 @@
   {
     "internalId": 768,
     "songId": "Help me, あーりん！",
-    "type": "std",
+    "type": "标准",
     "bpm": 183,
     "version": "MiLK PLUS",
     "otherName": [
@@ -40562,7 +40562,7 @@
   {
     "internalId": 769,
     "songId": "なるとなぎのパーフェクトロックンロール教室",
-    "type": "std",
+    "type": "标准",
     "bpm": 216,
     "version": "MiLK PLUS",
     "otherName": [
@@ -40640,7 +40640,7 @@
   {
     "internalId": 770,
     "songId": "あねぺったん",
-    "type": "std",
+    "type": "标准",
     "bpm": 180,
     "version": "MiLK PLUS",
     "otherName": [
@@ -40709,7 +40709,7 @@
   {
     "internalId": 771,
     "songId": "We Gonna Journey",
-    "type": "std",
+    "type": "标准",
     "bpm": 160,
     "version": "MiLK PLUS",
     "otherName": [
@@ -40783,7 +40783,7 @@
   {
     "internalId": 772,
     "songId": "FREEDOM DiVE (tpz Overcute Remix)",
-    "type": "std",
+    "type": "标准",
     "bpm": 234,
     "version": "MiLK PLUS",
     "otherName": [
@@ -40873,7 +40873,7 @@
   {
     "internalId": 773,
     "songId": "SILENT BLUE",
-    "type": "std",
+    "type": "标准",
     "bpm": 210,
     "version": "MiLK PLUS",
     "otherName": [
@@ -40956,7 +40956,7 @@
   {
     "internalId": 775,
     "songId": "ジンギスカン",
-    "type": "std",
+    "type": "标准",
     "bpm": 150,
     "version": "MiLK PLUS",
     "otherName": [
@@ -41027,7 +41027,7 @@
   {
     "internalId": 776,
     "songId": "にじよめちゃん体操第一億",
-    "type": "std",
+    "type": "标准",
     "bpm": 120,
     "version": "MiLK PLUS",
     "otherName": [
@@ -41107,7 +41107,7 @@
   {
     "internalId": 777,
     "songId": "花と、雪と、ドラムンベース。",
-    "type": "std",
+    "type": "标准",
     "bpm": 180,
     "version": "MiLK PLUS",
     "otherName": [
@@ -41219,7 +41219,7 @@
   {
     "internalId": 778,
     "songId": "Conquista Ciela",
-    "type": "std",
+    "type": "标准",
     "bpm": 140,
     "version": "MiLK PLUS",
     "otherName": [
@@ -41289,7 +41289,7 @@
   {
     "internalId": 779,
     "songId": "怒槌",
-    "type": "std",
+    "type": "标准",
     "bpm": 200,
     "version": "MiLK PLUS",
     "otherName": [
@@ -41379,7 +41379,7 @@
   {
     "internalId": 781,
     "songId": "Seyana. ～何でも言うことを聞いてくれるアカネチャン～",
-    "type": "std",
+    "type": "标准",
     "bpm": 144,
     "version": "MiLK PLUS",
     "otherName": [
@@ -41454,7 +41454,7 @@
   {
     "internalId": 782,
     "songId": "おねがいダーリン",
-    "type": "std",
+    "type": "标准",
     "bpm": 180,
     "version": "MiLK PLUS",
     "otherName": [
@@ -41527,7 +41527,7 @@
   {
     "internalId": 786,
     "songId": "My First Phone",
-    "type": "std",
+    "type": "标准",
     "bpm": 114,
     "version": "MiLK PLUS",
     "otherName": [
@@ -41615,7 +41615,7 @@
   {
     "internalId": 787,
     "songId": "SHINY DAYS",
-    "type": "std",
+    "type": "标准",
     "bpm": 110,
     "version": "FiNALE",
     "otherName": [],
@@ -41679,7 +41679,7 @@
   {
     "internalId": 789,
     "songId": "ネ！コ！",
-    "type": "std",
+    "type": "标准",
     "bpm": 182,
     "version": "FiNALE",
     "otherName": [
@@ -41754,7 +41754,7 @@
   {
     "internalId": 790,
     "songId": "only my railgun",
-    "type": "std",
+    "type": "标准",
     "bpm": 143,
     "version": "FiNALE",
     "otherName": [
@@ -41834,7 +41834,7 @@
   {
     "internalId": 791,
     "songId": "ロールプレイングゲーム",
-    "type": "std",
+    "type": "标准",
     "bpm": 162,
     "version": "FiNALE",
     "otherName": [
@@ -41906,7 +41906,7 @@
   {
     "internalId": 792,
     "songId": "ヒバナ",
-    "type": "std",
+    "type": "标准",
     "bpm": 200,
     "version": "FiNALE",
     "otherName": [
@@ -42010,7 +42010,7 @@
   {
     "internalId": 793,
     "songId": "ロキ",
-    "type": "std",
+    "type": "标准",
     "bpm": 150,
     "version": "FiNALE",
     "otherName": [
@@ -42101,7 +42101,7 @@
   {
     "internalId": 794,
     "songId": "Money Money",
-    "type": "std",
+    "type": "标准",
     "bpm": 145,
     "version": "FiNALE",
     "otherName": [
@@ -42175,7 +42175,7 @@
   {
     "internalId": 796,
     "songId": "極圏",
-    "type": "std",
+    "type": "标准",
     "bpm": 207,
     "version": "FiNALE",
     "otherName": [
@@ -42261,7 +42261,7 @@
   {
     "internalId": 797,
     "songId": "Scarlet Lance",
-    "type": "std",
+    "type": "标准",
     "bpm": 185,
     "version": "FiNALE",
     "otherName": [
@@ -42341,7 +42341,7 @@
   {
     "internalId": 798,
     "songId": "セイクリッド　ルイン",
-    "type": "std",
+    "type": "标准",
     "bpm": 186,
     "version": "FiNALE",
     "otherName": [
@@ -42416,7 +42416,7 @@
   {
     "internalId": 799,
     "songId": "QZKago Requiem",
-    "type": "std",
+    "type": "标准",
     "bpm": 257,
     "version": "FiNALE",
     "otherName": [
@@ -42580,7 +42580,7 @@
   {
     "internalId": 800,
     "songId": "EVERGREEN",
-    "type": "std",
+    "type": "标准",
     "bpm": 145,
     "version": "FiNALE",
     "otherName": [
@@ -42654,7 +42654,7 @@
   {
     "internalId": 801,
     "songId": "金の聖夜霜雪に朽ちて",
-    "type": "std",
+    "type": "标准",
     "bpm": 185,
     "version": "FiNALE",
     "otherName": [
@@ -42721,7 +42721,7 @@
   {
     "internalId": 802,
     "songId": "不思議の国のクリスマス",
-    "type": "std",
+    "type": "标准",
     "bpm": 128,
     "version": "FiNALE",
     "otherName": [
@@ -42798,7 +42798,7 @@
   {
     "internalId": 803,
     "songId": "Schwarzschild",
-    "type": "std",
+    "type": "标准",
     "bpm": 188,
     "version": "FiNALE",
     "otherName": [
@@ -42912,7 +42912,7 @@
   {
     "internalId": 804,
     "songId": "Magical Sound Shower",
-    "type": "std",
+    "type": "标准",
     "bpm": 120,
     "version": "FiNALE",
     "otherName": [],
@@ -42976,7 +42976,7 @@
   {
     "internalId": 805,
     "songId": "片想いサンバ",
-    "type": "std",
+    "type": "标准",
     "bpm": 150,
     "version": "FiNALE",
     "otherName": [
@@ -43042,7 +43042,7 @@
   {
     "internalId": 806,
     "songId": "ナイトメア☆パーティーナイト",
-    "type": "std",
+    "type": "标准",
     "bpm": 175,
     "version": "FiNALE",
     "otherName": [
@@ -43134,7 +43134,7 @@
   {
     "internalId": 807,
     "songId": "フキゲンワルツ",
-    "type": "std",
+    "type": "标准",
     "bpm": 210,
     "version": "FiNALE",
     "otherName": [],
@@ -43198,7 +43198,7 @@
   {
     "internalId": 809,
     "songId": "結ンデ開イテ羅刹ト骸",
-    "type": "std",
+    "type": "标准",
     "bpm": 169,
     "version": "FiNALE",
     "otherName": [
@@ -43286,7 +43286,7 @@
   {
     "internalId": 810,
     "songId": "サウンド",
-    "type": "std",
+    "type": "标准",
     "bpm": 160,
     "version": "FiNALE",
     "otherName": [],
@@ -43350,7 +43350,7 @@
   {
     "internalId": 811,
     "songId": "右肩の蝶",
-    "type": "std",
+    "type": "标准",
     "bpm": 140,
     "version": "FiNALE",
     "otherName": [],
@@ -43414,7 +43414,7 @@
   {
     "internalId": 812,
     "songId": "Alea jacta est!",
-    "type": "std",
+    "type": "标准",
     "bpm": 162,
     "version": "FiNALE",
     "otherName": [
@@ -43547,7 +43547,7 @@
   {
     "internalId": 815,
     "songId": "L4TS:2018 (feat. あひる & KTA)",
-    "type": "std",
+    "type": "标准",
     "bpm": 190,
     "version": "FiNALE",
     "otherName": [
@@ -43618,7 +43618,7 @@
   {
     "internalId": 816,
     "songId": "クレイジークレイジーダンサーズ",
-    "type": "std",
+    "type": "标准",
     "bpm": 172,
     "version": "FiNALE",
     "otherName": [
@@ -43708,7 +43708,7 @@
   {
     "internalId": 817,
     "songId": "【東方ニコカラ】秘神マターラ feat.魂音泉【IOSYS】",
-    "type": "std",
+    "type": "标准",
     "bpm": 168,
     "version": "FiNALE",
     "otherName": [
@@ -43779,7 +43779,7 @@
   {
     "internalId": 818,
     "songId": "隠然",
-    "type": "std",
+    "type": "标准",
     "bpm": 210,
     "version": "FiNALE",
     "otherName": [
@@ -43860,7 +43860,7 @@
   {
     "internalId": 819,
     "songId": "White Traveling Girl",
-    "type": "std",
+    "type": "标准",
     "bpm": 154,
     "version": "FiNALE",
     "otherName": [
@@ -43932,7 +43932,7 @@
   {
     "internalId": 820,
     "songId": "FFT",
-    "type": "std",
+    "type": "标准",
     "bpm": 180,
     "version": "FiNALE",
     "otherName": [
@@ -44039,7 +44039,7 @@
   {
     "internalId": 821,
     "songId": "-OutsideR:RequieM-",
-    "type": "std",
+    "type": "标准",
     "bpm": 181,
     "version": "FiNALE",
     "otherName": [
@@ -44117,7 +44117,7 @@
   {
     "internalId": 822,
     "songId": "イロトリドリのメロディ",
-    "type": "std",
+    "type": "标准",
     "bpm": 140,
     "version": "FiNALE",
     "otherName": [
@@ -44187,7 +44187,7 @@
   {
     "internalId": 823,
     "songId": "奏者はただ背中と提琴で語るのみ",
-    "type": "std",
+    "type": "标准",
     "bpm": 230,
     "version": "FiNALE",
     "otherName": [
@@ -44263,7 +44263,7 @@
   {
     "internalId": 825,
     "songId": "雷切-RAIKIRI-",
-    "type": "std",
+    "type": "标准",
     "bpm": 165,
     "version": "FiNALE",
     "otherName": [
@@ -44369,7 +44369,7 @@
   {
     "internalId": 826,
     "songId": "キミとボクのミライ",
-    "type": "std",
+    "type": "标准",
     "bpm": 178,
     "version": "FiNALE",
     "otherName": [],
@@ -44447,7 +44447,7 @@
   {
     "internalId": 827,
     "songId": "Lost Princess",
-    "type": "std",
+    "type": "标准",
     "bpm": 150,
     "version": "FiNALE",
     "otherName": [],
@@ -44525,7 +44525,7 @@
   {
     "internalId": 829,
     "songId": "敗北の少年",
-    "type": "std",
+    "type": "标准",
     "bpm": 185,
     "version": "FiNALE",
     "otherName": [
@@ -44599,7 +44599,7 @@
   {
     "internalId": 830,
     "songId": "立ち入り禁止",
-    "type": "std",
+    "type": "标准",
     "bpm": 160,
     "version": "FiNALE",
     "otherName": [
@@ -44693,7 +44693,7 @@
   {
     "internalId": 831,
     "songId": "お気に召すまま",
-    "type": "std",
+    "type": "标准",
     "bpm": 143,
     "version": "FiNALE",
     "otherName": [],
@@ -44771,7 +44771,7 @@
   {
     "internalId": 832,
     "songId": "命ばっかり",
-    "type": "std",
+    "type": "标准",
     "bpm": 128,
     "version": "FiNALE",
     "otherName": [
@@ -44845,7 +44845,7 @@
   {
     "internalId": 833,
     "songId": "the EmpErroR",
-    "type": "std",
+    "type": "标准",
     "bpm": 240,
     "version": "FiNALE",
     "otherName": [
@@ -44961,7 +44961,7 @@
   {
     "internalId": 834,
     "songId": "PANDORA PARADOXXX",
-    "type": "std",
+    "type": "标准",
     "bpm": 150,
     "version": "FiNALE",
     "otherName": [
@@ -45116,7 +45116,7 @@
   {
     "internalId": 835,
     "songId": "Believe the Rainbow",
-    "type": "std",
+    "type": "标准",
     "bpm": 133,
     "version": "FiNALE",
     "otherName": [
@@ -45194,7 +45194,7 @@
   {
     "internalId": 836,
     "songId": "Good Bye, Mr. Jack",
-    "type": "std",
+    "type": "标准",
     "bpm": 180,
     "version": "FiNALE",
     "otherName": [
@@ -45269,7 +45269,7 @@
   {
     "internalId": 837,
     "songId": "Altale",
-    "type": "std",
+    "type": "标准",
     "bpm": 90,
     "version": "FiNALE",
     "otherName": [
@@ -45348,7 +45348,7 @@
   {
     "internalId": 838,
     "songId": "最終鬼畜妹フランドール・S",
-    "type": "std",
+    "type": "标准",
     "bpm": 200,
     "version": "FiNALE",
     "otherName": [
@@ -45442,7 +45442,7 @@
   {
     "internalId": 839,
     "songId": "ネクロファンタジア～Arr.Demetori",
-    "type": "std",
+    "type": "标准",
     "bpm": 180,
     "version": "FiNALE",
     "otherName": [
@@ -45520,7 +45520,7 @@
   {
     "internalId": 840,
     "songId": "Imperishable Night 2006 (2016 Refine)",
-    "type": "std",
+    "type": "标准",
     "bpm": 161,
     "version": "FiNALE",
     "otherName": [
@@ -45608,7 +45608,7 @@
   {
     "internalId": 841,
     "songId": "終点",
-    "type": "std",
+    "type": "标准",
     "bpm": 222,
     "version": "FiNALE",
     "otherName": [
@@ -45683,7 +45683,7 @@
   {
     "internalId": 842,
     "songId": "WORLD'S END UMBRELLA",
-    "type": "std",
+    "type": "标准",
     "bpm": 180,
     "version": "FiNALE",
     "otherName": [
@@ -45752,7 +45752,7 @@
   {
     "internalId": 844,
     "songId": "End Time",
-    "type": "std",
+    "type": "标准",
     "bpm": 180,
     "version": "FiNALE",
     "otherName": [
@@ -45836,7 +45836,7 @@
   {
     "internalId": 847,
     "songId": "カラフル×メロディ",
-    "type": "std",
+    "type": "标准",
     "bpm": 185,
     "version": "FiNALE",
     "otherName": [],
@@ -45900,7 +45900,7 @@
   {
     "internalId": 848,
     "songId": "魔法少女になるしかねぇ",
-    "type": "std",
+    "type": "标准",
     "bpm": 165,
     "version": "FiNALE",
     "otherName": [
@@ -45976,7 +45976,7 @@
   {
     "internalId": 849,
     "songId": "Kattobi KEIKYU Rider",
-    "type": "std",
+    "type": "标准",
     "bpm": 220,
     "version": "FiNALE",
     "otherName": [
@@ -46067,7 +46067,7 @@
   {
     "internalId": 850,
     "songId": "B.M.S.",
-    "type": "std",
+    "type": "标准",
     "bpm": 200,
     "version": "FiNALE",
     "otherName": [
@@ -46148,7 +46148,7 @@
   {
     "internalId": 852,
     "songId": "TiamaT:F minor",
-    "type": "std",
+    "type": "标准",
     "bpm": 215,
     "version": "FiNALE",
     "otherName": [
@@ -46265,7 +46265,7 @@
   {
     "internalId": 853,
     "songId": "前前前世",
-    "type": "std",
+    "type": "标准",
     "bpm": 190,
     "version": "MURASAKi PLUS",
     "otherName": [
@@ -46342,7 +46342,7 @@
   {
     "internalId": 1020,
     "songId": "Technicians High",
-    "type": "std",
+    "type": "标准",
     "bpm": 165,
     "version": "UNiVERSE",
     "otherName": [
@@ -46424,7 +46424,7 @@
   {
     "internalId": 1051,
     "songId": "Destr0yer",
-    "type": "std",
+    "type": "标准",
     "bpm": 90,
     "version": "UNiVERSE",
     "otherName": [
@@ -46512,7 +46512,7 @@
   {
     "internalId": 1081,
     "songId": "サンバランド",
-    "type": "std",
+    "type": "标准",
     "bpm": 132,
     "version": "UNiVERSE PLUS",
     "otherName": [
@@ -46590,7 +46590,7 @@
   {
     "internalId": 1085,
     "songId": "Halcyon",
-    "type": "std",
+    "type": "标准",
     "bpm": 191,
     "version": "UNiVERSE PLUS",
     "otherName": [
@@ -46671,7 +46671,7 @@
   {
     "internalId": 1103,
     "songId": "渦状銀河のシンフォニエッタ",
-    "type": "std",
+    "type": "标准",
     "bpm": 238,
     "version": "BUDDiES",
     "otherName": [
@@ -46757,7 +46757,7 @@
   {
     "internalId": 1235,
     "songId": "VIIIbit Explorer",
-    "type": "std",
+    "type": "标准",
     "bpm": 188,
     "version": "FESTiVAL",
     "otherName": [
@@ -46855,7 +46855,7 @@
   {
     "internalId": 1301,
     "songId": "華の集落、秋のお届け",
-    "type": "std",
+    "type": "标准",
     "bpm": 165,
     "version": "BUDDiES PLUS",
     "otherName": [
@@ -112142,7 +112142,7 @@
   {
     "internalId": "none",
     "songId": "7 Girls War",
-    "type": "std",
+    "type": "标准",
     "bpm": 180,
     "version": "MURASAKi",
     "otherName": [],
@@ -112365,7 +112365,7 @@
   {
     "internalId": "none",
     "songId": "愛を止めないで",
-    "type": "std",
+    "type": "标准",
     "bpm": 83,
     "version": "maimai",
     "otherName": [],
@@ -112559,7 +112559,7 @@
   {
     "internalId": "none",
     "songId": "残酷な天使のテーゼ",
-    "type": "std",
+    "type": "标准",
     "bpm": 128,
     "version": "GreeN",
     "otherName": [
@@ -112830,7 +112830,7 @@
   {
     "internalId": "none",
     "songId": "創聖のアクエリオン",
-    "type": "std",
+    "type": "标准",
     "bpm": 151,
     "version": "GreeN",
     "otherName": [],
@@ -113171,7 +113171,7 @@
   {
     "internalId": "none",
     "songId": "毒占欲",
-    "type": "std",
+    "type": "标准",
     "bpm": 117,
     "version": "ORANGE",
     "otherName": [],
@@ -113655,7 +113655,7 @@
   {
     "internalId": "none",
     "songId": "絵の上手かった友達",
-    "type": "std",
+    "type": "标准",
     "bpm": 128,
     "version": "PiNK",
     "otherName": [],
@@ -113719,7 +113719,7 @@
   {
     "internalId": "none",
     "songId": "極上スマイル",
-    "type": "std",
+    "type": "标准",
     "bpm": 143,
     "version": "PiNK",
     "otherName": [],
@@ -113783,7 +113783,7 @@
   {
     "internalId": "none",
     "songId": "甲賀忍法帖",
-    "type": "std",
+    "type": "标准",
     "bpm": 178,
     "version": "MiLK PLUS",
     "otherName": [
@@ -113993,7 +113993,7 @@
   {
     "internalId": "none",
     "songId": "恋愛サーキュレーション",
-    "type": "std",
+    "type": "标准",
     "bpm": 120,
     "version": "maimai",
     "otherName": [
@@ -114124,7 +114124,7 @@
   {
     "internalId": "none",
     "songId": "恋のヒメヒメぺったんこ",
-    "type": "std",
+    "type": "标准",
     "bpm": 178,
     "version": "GreeN PLUS",
     "otherName": [],
@@ -114254,7 +114254,7 @@
   {
     "internalId": "none",
     "songId": "秘密の扉から会いにきて",
-    "type": "std",
+    "type": "标准",
     "bpm": 184,
     "version": "PiNK",
     "otherName": [],
@@ -114318,7 +114318,7 @@
   {
     "internalId": "none",
     "songId": "名探偵連続殺人事件",
-    "type": "std",
+    "type": "标准",
     "bpm": 140,
     "version": "MURASAKi PLUS",
     "otherName": [
@@ -114596,7 +114596,7 @@
   {
     "internalId": "none",
     "songId": "女々しくて",
-    "type": "std",
+    "type": "标准",
     "bpm": 143,
     "version": "GreeN",
     "otherName": [],
@@ -114660,7 +114660,7 @@
   {
     "internalId": "none",
     "songId": "僕は空気が嫁ない",
-    "type": "std",
+    "type": "标准",
     "bpm": 192,
     "version": "CiRCLE",
     "otherName": [
@@ -114733,7 +114733,7 @@
   {
     "internalId": "none",
     "songId": "青春はNon-Stop！",
-    "type": "std",
+    "type": "标准",
     "bpm": 172,
     "version": "PiNK",
     "otherName": [],
@@ -114861,7 +114861,7 @@
   {
     "internalId": "none",
     "songId": "全力☆Summer!",
-    "type": "std",
+    "type": "标准",
     "bpm": 158,
     "version": "MiLK PLUS",
     "otherName": [],
@@ -114939,7 +114939,7 @@
   {
     "internalId": "none",
     "songId": "全世界共通リズム感テスト",
-    "type": "std",
+    "type": "标准",
     "bpm": 120,
     "version": "ORANGE PLUS",
     "otherName": [
@@ -115413,7 +115413,7 @@
   {
     "internalId": "none",
     "songId": "未来(ソラ)の歌",
-    "type": "std",
+    "type": "标准",
     "bpm": 153,
     "version": "MURASAKi PLUS",
     "otherName": [],
@@ -115605,7 +115605,7 @@
   {
     "internalId": "none",
     "songId": "夏祭り",
-    "type": "std",
+    "type": "标准",
     "bpm": 141,
     "version": "PiNK PLUS",
     "otherName": [],
@@ -115669,7 +115669,7 @@
   {
     "internalId": "none",
     "songId": "夏にキスしていいですか？",
-    "type": "std",
+    "type": "标准",
     "bpm": 160,
     "version": "PiNK PLUS",
     "otherName": [],
@@ -116130,7 +116130,7 @@
   {
     "internalId": "none",
     "songId": "AFTER PANDORA",
-    "type": "std",
+    "type": "标准",
     "bpm": 85,
     "version": "PRiSM PLUS",
     "otherName": [
@@ -116422,7 +116422,7 @@
   {
     "internalId": "none",
     "songId": "Arrival of Tears",
-    "type": "std",
+    "type": "标准",
     "bpm": 200,
     "version": "MiLK PLUS",
     "otherName": [],
@@ -116849,7 +116849,7 @@
   {
     "internalId": "none",
     "songId": "Butter-Fly",
-    "type": "std",
+    "type": "标准",
     "bpm": 165,
     "version": "GreeN",
     "otherName": [],
@@ -116913,7 +116913,7 @@
   {
     "internalId": "none",
     "songId": "Can Do",
-    "type": "std",
+    "type": "标准",
     "bpm": 200,
     "version": "ORANGE PLUS",
     "otherName": [],
@@ -116977,7 +116977,7 @@
   {
     "internalId": "none",
     "songId": "CAN'T GET BACK",
-    "type": "std",
+    "type": "标准",
     "bpm": 140,
     "version": "maimai",
     "otherName": [],
@@ -117041,7 +117041,7 @@
   {
     "internalId": "none",
     "songId": "CANDY CANDY",
-    "type": "std",
+    "type": "标准",
     "bpm": 130,
     "version": "maimai PLUS",
     "otherName": [],
@@ -117169,7 +117169,7 @@
   {
     "internalId": "none",
     "songId": "Choo Choo TRAIN",
-    "type": "std",
+    "type": "标准",
     "bpm": 115,
     "version": "GreeN",
     "otherName": [],
@@ -117233,7 +117233,7 @@
   {
     "internalId": "none",
     "songId": "Chu Chu",
-    "type": "std",
+    "type": "标准",
     "bpm": 98,
     "version": "maimai",
     "otherName": [],
@@ -117766,7 +117766,7 @@
   {
     "internalId": "none",
     "songId": "Daydream café",
-    "type": "std",
+    "type": "标准",
     "bpm": 150,
     "version": "PiNK PLUS",
     "otherName": [],
@@ -117900,7 +117900,7 @@
   {
     "internalId": "none",
     "songId": "Deep in Abyss",
-    "type": "std",
+    "type": "标准",
     "bpm": 135,
     "version": "FiNALE",
     "otherName": [],
@@ -117964,7 +117964,7 @@
   {
     "internalId": "none",
     "songId": "Dragon Night",
-    "type": "std",
+    "type": "标准",
     "bpm": 124,
     "version": "PiNK",
     "otherName": [],
@@ -118293,7 +118293,7 @@
   {
     "internalId": "none",
     "songId": "Everyday、カチューシャ",
-    "type": "std",
+    "type": "标准",
     "bpm": 172,
     "version": "maimai",
     "otherName": [],
@@ -118357,7 +118357,7 @@
   {
     "internalId": "none",
     "songId": "Falling Roses",
-    "type": "std",
+    "type": "标准",
     "bpm": 200,
     "version": "PiNK",
     "otherName": [],
@@ -118513,7 +118513,7 @@
   {
     "internalId": "none",
     "songId": "galaxias!",
-    "type": "std",
+    "type": "标准",
     "bpm": 123,
     "version": "GreeN",
     "otherName": [],
@@ -118641,7 +118641,7 @@
   {
     "internalId": "none",
     "songId": "Garden",
-    "type": "std",
+    "type": "标准",
     "bpm": 99,
     "version": "maimai",
     "otherName": [],
@@ -118705,7 +118705,7 @@
   {
     "internalId": "none",
     "songId": "Get Off of My Way",
-    "type": "std",
+    "type": "标准",
     "bpm": 135,
     "version": "maimai PLUS",
     "otherName": [],
@@ -118915,7 +118915,7 @@
   {
     "internalId": "none",
     "songId": "GO MY WAY!!",
-    "type": "std",
+    "type": "标准",
     "bpm": 180,
     "version": "GreeN PLUS",
     "otherName": [],
@@ -118979,7 +118979,7 @@
   {
     "internalId": "none",
     "songId": "GO!!!",
-    "type": "std",
+    "type": "标准",
     "bpm": 134,
     "version": "GreeN",
     "otherName": [],
@@ -119043,7 +119043,7 @@
   {
     "internalId": "none",
     "songId": "H-A-J-I-M-A-R-I-U-T-A-!!",
-    "type": "std",
+    "type": "标准",
     "bpm": 140,
     "version": "MURASAKi",
     "otherName": [],
@@ -119249,7 +119249,7 @@
   {
     "internalId": "none",
     "songId": "Ievan Polkka",
-    "type": "std",
+    "type": "标准",
     "bpm": 119,
     "version": "MiLK PLUS",
     "otherName": [
@@ -119526,7 +119526,7 @@
   {
     "internalId": "none",
     "songId": "Jumping!!",
-    "type": "std",
+    "type": "标准",
     "bpm": 175,
     "version": "MURASAKi",
     "otherName": [],
@@ -119853,7 +119853,7 @@
   {
     "internalId": "none",
     "songId": "LOVE ＆ JOY",
-    "type": "std",
+    "type": "标准",
     "bpm": 173,
     "version": "maimai",
     "otherName": [],
@@ -119917,7 +119917,7 @@
   {
     "internalId": "none",
     "songId": "LOVEドッきゅん♥",
-    "type": "std",
+    "type": "标准",
     "bpm": 149,
     "version": "GreeN",
     "otherName": [],
@@ -120051,7 +120051,7 @@
   {
     "internalId": "none",
     "songId": "Luminize",
-    "type": "std",
+    "type": "标准",
     "bpm": 140,
     "version": "PiNK",
     "otherName": [],
@@ -120326,7 +120326,7 @@
   {
     "internalId": "none",
     "songId": "Mr. Wonderland",
-    "type": "std",
+    "type": "标准",
     "bpm": 140,
     "version": "PiNK PLUS",
     "otherName": [],
@@ -120390,7 +120390,7 @@
   {
     "internalId": "none",
     "songId": "naraku within",
-    "type": "std",
+    "type": "标准",
     "bpm": 130,
     "version": "ORANGE",
     "otherName": [],
@@ -120454,7 +120454,7 @@
   {
     "internalId": "none",
     "songId": "New World",
-    "type": "std",
+    "type": "标准",
     "bpm": 127,
     "version": "maimai",
     "otherName": [],
@@ -120596,7 +120596,7 @@
   {
     "internalId": "none",
     "songId": "NOISY LOVE POWER☆",
-    "type": "std",
+    "type": "标准",
     "bpm": 140,
     "version": "FiNALE",
     "otherName": [],
@@ -120742,7 +120742,7 @@
   {
     "internalId": "none",
     "songId": "Paranoia",
-    "type": "std",
+    "type": "标准",
     "bpm": 150,
     "version": "CiRCLE",
     "otherName": [
@@ -120809,7 +120809,7 @@
   {
     "internalId": "none",
     "songId": "PERFECT HUMAN",
-    "type": "std",
+    "type": "标准",
     "bpm": 128,
     "version": "MURASAKi",
     "otherName": [],
@@ -121005,7 +121005,7 @@
   {
     "internalId": "none",
     "songId": "PON PON PON",
-    "type": "std",
+    "type": "标准",
     "bpm": 128,
     "version": "maimai",
     "otherName": [],
@@ -121133,7 +121133,7 @@
   {
     "internalId": "none",
     "songId": "POP TEAM EPIC",
-    "type": "std",
+    "type": "标准",
     "bpm": 142,
     "version": "MiLK PLUS",
     "otherName": [],
@@ -121275,7 +121275,7 @@
   {
     "internalId": "none",
     "songId": "READY STEADY GO",
-    "type": "std",
+    "type": "标准",
     "bpm": 144,
     "version": "GreeN",
     "otherName": [],
@@ -121489,7 +121489,7 @@
   {
     "internalId": "none",
     "songId": "RPG",
-    "type": "std",
+    "type": "标准",
     "bpm": 135,
     "version": "GreeN PLUS",
     "otherName": [
@@ -121555,7 +121555,7 @@
   {
     "internalId": "none",
     "songId": "SAVIOR OF SONG",
-    "type": "std",
+    "type": "标准",
     "bpm": 192,
     "version": "ORANGE PLUS",
     "otherName": [],
@@ -121619,7 +121619,7 @@
   {
     "internalId": "none",
     "songId": "Scatman (Ski Ba Bop Ba Dop Bop)",
-    "type": "std",
+    "type": "标准",
     "bpm": 136,
     "version": "PiNK PLUS",
     "otherName": [],
@@ -121811,7 +121811,7 @@
   {
     "internalId": "none",
     "songId": "SPELL MAGIC",
-    "type": "std",
+    "type": "标准",
     "bpm": 180,
     "version": "maimai PLUS",
     "otherName": [],
@@ -121875,7 +121875,7 @@
   {
     "internalId": "none",
     "songId": "Star☆Glitter",
-    "type": "std",
+    "type": "标准",
     "bpm": 171,
     "version": "MURASAKi",
     "otherName": [],
@@ -121939,7 +121939,7 @@
   {
     "internalId": "none",
     "songId": "SUSHI食べたい feat.ソイソース",
-    "type": "std",
+    "type": "标准",
     "bpm": 135,
     "version": "MURASAKi",
     "otherName": [],
@@ -122067,7 +122067,7 @@
   {
     "internalId": "none",
     "songId": "Tachyon",
-    "type": "std",
+    "type": "标准",
     "bpm": 176,
     "version": "GreeN PLUS",
     "otherName": [],
@@ -122259,7 +122259,7 @@
   {
     "internalId": "none",
     "songId": "THE IDOLM@STER 2nd-mix",
-    "type": "std",
+    "type": "标准",
     "bpm": 168,
     "version": "GreeN PLUS",
     "otherName": [],
@@ -122323,7 +122323,7 @@
   {
     "internalId": "none",
     "songId": "The Other self",
-    "type": "std",
+    "type": "标准",
     "bpm": 150,
     "version": "ORANGE PLUS",
     "otherName": [],
@@ -122387,7 +122387,7 @@
   {
     "internalId": "none",
     "songId": "The world is all one !!",
-    "type": "std",
+    "type": "标准",
     "bpm": 167,
     "version": "GreeN PLUS",
     "otherName": [],
@@ -122519,7 +122519,7 @@
   {
     "internalId": "none",
     "songId": "Touch Tap Baby",
-    "type": "std",
+    "type": "标准",
     "bpm": 162,
     "version": "PiNK",
     "otherName": [],
@@ -122889,7 +122889,7 @@
   {
     "internalId": "none",
     "songId": "VICTORY",
-    "type": "std",
+    "type": "标准",
     "bpm": 130,
     "version": "GreeN PLUS",
     "otherName": [],
@@ -123392,7 +123392,7 @@
   {
     "internalId": "none",
     "songId": "アイデンティティ",
-    "type": "std",
+    "type": "标准",
     "bpm": 140,
     "version": "maimai",
     "otherName": [],
@@ -123591,7 +123591,7 @@
   {
     "internalId": "none",
     "songId": "アリサのテーマ",
-    "type": "std",
+    "type": "标准",
     "bpm": 130,
     "version": "FiNALE",
     "otherName": [],
@@ -123728,7 +123728,7 @@
   {
     "internalId": "none",
     "songId": "いぇす！ゆゆゆ☆ゆるゆり♪♪",
-    "type": "std",
+    "type": "标准",
     "bpm": 182,
     "version": "MURASAKi",
     "otherName": [],
@@ -123856,7 +123856,7 @@
   {
     "internalId": "none",
     "songId": "イチズレシピ",
-    "type": "std",
+    "type": "标准",
     "bpm": 170,
     "version": "PiNK PLUS",
     "otherName": [],
@@ -124051,7 +124051,7 @@
   {
     "internalId": "none",
     "songId": "うまるん体操",
-    "type": "std",
+    "type": "标准",
     "bpm": 170,
     "version": "MiLK PLUS",
     "otherName": [
@@ -124267,7 +124267,7 @@
   {
     "internalId": "none",
     "songId": "おいでよ！妖精の森",
-    "type": "std",
+    "type": "标准",
     "bpm": 220,
     "version": "ORANGE",
     "otherName": [],
@@ -124542,7 +124542,7 @@
   {
     "internalId": "none",
     "songId": "オルフェ",
-    "type": "std",
+    "type": "标准",
     "bpm": 184,
     "version": "ORANGE PLUS",
     "otherName": [],
@@ -124683,7 +124683,7 @@
   {
     "internalId": "none",
     "songId": "かくしん的☆めたまるふぉ～ぜっ！",
-    "type": "std",
+    "type": "标准",
     "bpm": 139,
     "version": "PiNK",
     "otherName": [
@@ -124766,7 +124766,7 @@
   {
     "internalId": "none",
     "songId": "カノン",
-    "type": "std",
+    "type": "标准",
     "bpm": 208,
     "version": "ORANGE PLUS",
     "otherName": [
@@ -124832,7 +124832,7 @@
   {
     "internalId": "none",
     "songId": "カルマ",
-    "type": "std",
+    "type": "标准",
     "bpm": 195,
     "version": "GreeN",
     "otherName": [],
@@ -124896,7 +124896,7 @@
   {
     "internalId": "none",
     "songId": "ゲラゲラポーのうた",
-    "type": "std",
+    "type": "标准",
     "bpm": 120,
     "version": "PiNK",
     "otherName": [],
@@ -124960,7 +124960,7 @@
   {
     "internalId": "none",
     "songId": "ココロオドル",
-    "type": "std",
+    "type": "标准",
     "bpm": 226,
     "version": "ORANGE PLUS",
     "otherName": [
@@ -125111,7 +125111,7 @@
   {
     "internalId": "none",
     "songId": "コネクト",
-    "type": "std",
+    "type": "标准",
     "bpm": 175,
     "version": "maimai",
     "otherName": [
@@ -125318,7 +125318,7 @@
   {
     "internalId": "none",
     "songId": "サブリナ",
-    "type": "std",
+    "type": "标准",
     "bpm": 136,
     "version": "maimai PLUS",
     "otherName": [],
@@ -125382,7 +125382,7 @@
   {
     "internalId": "none",
     "songId": "サラバ、愛しき悲しみたちよ",
-    "type": "std",
+    "type": "标准",
     "bpm": 168,
     "version": "GreeN",
     "otherName": [],
@@ -125704,7 +125704,7 @@
   {
     "internalId": "none",
     "songId": "シュガーソングとビターステップ",
-    "type": "std",
+    "type": "标准",
     "bpm": 132,
     "version": "PiNK PLUS",
     "otherName": [],
@@ -125770,7 +125770,7 @@
   {
     "internalId": "none",
     "songId": "じょいふる",
-    "type": "std",
+    "type": "标准",
     "bpm": 159,
     "version": "maimai",
     "otherName": [],
@@ -125834,7 +125834,7 @@
   {
     "internalId": "none",
     "songId": "シリウス",
-    "type": "std",
+    "type": "标准",
     "bpm": 176,
     "version": "ORANGE PLUS",
     "otherName": [],
@@ -126168,7 +126168,7 @@
   {
     "internalId": "none",
     "songId": "ちょちょちょ！ゆるゆり☆かぷりっちょ！！！",
-    "type": "std",
+    "type": "标准",
     "bpm": 190,
     "version": "MURASAKi",
     "otherName": [],
@@ -126306,7 +126306,7 @@
   {
     "internalId": "none",
     "songId": "つけまつける",
-    "type": "std",
+    "type": "标准",
     "bpm": 145,
     "version": "maimai PLUS",
     "otherName": [],
@@ -126533,7 +126533,7 @@
   {
     "internalId": "none",
     "songId": "でんでんぱっしょん",
-    "type": "std",
+    "type": "标准",
     "bpm": 186,
     "version": "PiNK",
     "otherName": [],
@@ -126735,7 +126735,7 @@
   {
     "internalId": "none",
     "songId": "ニブンノイチ",
-    "type": "std",
+    "type": "标准",
     "bpm": 125,
     "version": "ORANGE PLUS",
     "otherName": [],
@@ -126799,7 +126799,7 @@
   {
     "internalId": "none",
     "songId": "にめんせい☆ウラオモテライフ！",
-    "type": "std",
+    "type": "标准",
     "bpm": 170,
     "version": "MiLK PLUS",
     "otherName": [],
@@ -127162,7 +127162,7 @@
   {
     "internalId": "none",
     "songId": "ひみつをちょーだい",
-    "type": "std",
+    "type": "标准",
     "bpm": 160,
     "version": "PiNK",
     "otherName": [],
@@ -127226,7 +127226,7 @@
   {
     "internalId": "none",
     "songId": "ふ・れ・ん・ど・し・た・い",
-    "type": "std",
+    "type": "标准",
     "bpm": 148,
     "version": "PiNK PLUS",
     "otherName": [],
@@ -127304,7 +127304,7 @@
   {
     "internalId": "none",
     "songId": "ファッとして桃源郷",
-    "type": "std",
+    "type": "标准",
     "bpm": 160,
     "version": "MURASAKi",
     "otherName": [],
@@ -127368,7 +127368,7 @@
   {
     "internalId": "none",
     "songId": "ファミリーパーティー",
-    "type": "std",
+    "type": "标准",
     "bpm": 142,
     "version": "ORANGE",
     "otherName": [],
@@ -127432,7 +127432,7 @@
   {
     "internalId": "none",
     "songId": "プリズム△▽リズム",
-    "type": "std",
+    "type": "标准",
     "bpm": 155,
     "version": "PRiSM PLUS",
     "otherName": [
@@ -127571,7 +127571,7 @@
   {
     "internalId": "none",
     "songId": "ヘタリアン☆ジェット",
-    "type": "std",
+    "type": "标准",
     "bpm": 132,
     "version": "PiNK PLUS",
     "otherName": [],
@@ -127635,7 +127635,7 @@
   {
     "internalId": "none",
     "songId": "ヘビーローテーション",
-    "type": "std",
+    "type": "标准",
     "bpm": 178,
     "version": "maimai",
     "otherName": [],
@@ -127699,7 +127699,7 @@
   {
     "internalId": "none",
     "songId": "ほとんど違法行為",
-    "type": "std",
+    "type": "标准",
     "bpm": 128,
     "version": "ORANGE",
     "otherName": [],
@@ -127846,7 +127846,7 @@
   {
     "internalId": "none",
     "songId": "みかんのうた",
-    "type": "std",
+    "type": "标准",
     "bpm": 288,
     "version": "ORANGE",
     "otherName": [],
@@ -128205,7 +128205,7 @@
   {
     "internalId": "none",
     "songId": "ゆりゆららららゆるゆり大事件",
-    "type": "std",
+    "type": "标准",
     "bpm": 175,
     "version": "MURASAKi",
     "otherName": [],
@@ -128269,7 +128269,7 @@
   {
     "internalId": "none",
     "songId": "ようかい体操第一",
-    "type": "std",
+    "type": "标准",
     "bpm": 125,
     "version": "PiNK PLUS",
     "otherName": [],
@@ -128548,7 +128548,7 @@
   {
     "internalId": "none",
     "songId": "リクライム",
-    "type": "std",
+    "type": "标准",
     "bpm": 188,
     "version": "GreeN PLUS",
     "otherName": [],
@@ -128612,7 +128612,7 @@
   {
     "internalId": "none",
     "songId": "リライト",
-    "type": "std",
+    "type": "标准",
     "bpm": 179,
     "version": "GreeN",
     "otherName": [],
@@ -128834,7 +128834,7 @@
   {
     "internalId": "none",
     "songId": "ワンダーラスト",
-    "type": "std",
+    "type": "标准",
     "bpm": 230,
     "version": "FiNALE",
     "otherName": [
